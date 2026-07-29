@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Weekly scheduler for macOS. launchd rather than cron: launchd runs a missed
+  job when the Mac wakes; cron just skips it.
+
+  Install:
+    cp com.billboardtag.weekly.plist ~/Library/LaunchAgents/
+    launchctl load ~/Library/LaunchAgents/com.billboardtag.weekly.plist
+
+  Run now:   launchctl start com.billboardtag.weekly
+  Stop:      launchctl unload ~/Library/LaunchAgents/com.billboardtag.weekly.plist
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.billboardtag.weekly</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/scottstrubberg/billboard-tag/weekly_update.sh</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/scottstrubberg/billboard-tag</string>
+
+    <!-- Sundays at 09:00 -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Weekday</key><integer>0</integer>
+        <key>Hour</key><integer>9</integer>
+        <key>Minute</key><integer>0</integer>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/billboardtag.out</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/billboardtag.err</string>
+</dict>
+</plist>

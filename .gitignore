@@ -1,0 +1,20 @@
+# Downloaded bulk datasets - re-fetched by `load`, ~40 MB total
+dataset_*.csv
+
+# Generated review files
+billboard_plan.csv
+wave_preview.csv
+sample_plan.csv
+one_plan.csv
+
+# Local runtime
+billboard-env/
+__pycache__/
+*.pyc
+logs/
+
+# The cache IS tracked, uncompressed. Counterintuitive but measured: git
+# zlib-compresses blobs itself and deltas between versions, so a 21 MB JSON
+# costs ~3 MB once and a few hundred KB a year. Pre-gzipping it defeats both
+# and made the repo ~11x larger. See README > Cache and repo size.
+billboard_cache.json.gz
