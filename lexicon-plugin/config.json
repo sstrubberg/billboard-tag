@@ -1,7 +1,8 @@
 {
   "id": "billboardtag",
   "author": {
-    "name": "Scott Strubberg"
+    "name": "Scott Strubberg",
+    "email": "sstrubberg@gmail.com"
   },
   "actions": [
     {
