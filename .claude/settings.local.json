@@ -5,7 +5,18 @@
       "Bash(python3 cache_audit.py)",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "WebSearch",
+      "WebFetch(domain:www.lexicondj.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(python3 -m py_compile billboard_tag_v3.py)",
+      "Bash(python3 -c \"import rapidfuzz\")",
+      "Bash(python3 -m venv /tmp/testenv)",
+      "Bash(/tmp/testenv/bin/pip install *)",
+      "Bash(/tmp/testenv/bin/python /private/tmp/claude-501/-Users-scottstrubberg-billboard-tag/fdf5ef73-7ebc-47cc-845b-22ac1ff92d34/scratchpad/test_plugin_out.py)",
+      "Bash(rm -f /tmp/fake_cache.json /tmp/fake_plan.csv /tmp/fake_pending.json)",
+      "Bash(rm -rf /tmp/testenv)"
     ]
   }
 }
