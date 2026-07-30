@@ -6,9 +6,9 @@
   },
   "actions": [
     {
-      "id": "billboardtag.apply",
-      "name": "Apply Billboard Tags",
-      "description": "Merges the auto-approved (exact-match) Billboard chart tags queued in pending.json into your library. Never removes a tag.",
+      "id": "billboardtag.reviewapply",
+      "name": "1. Review and Apply Billboard Tags",
+      "description": "Reviews fuzzy-match rows one at a time (approve/skip) and merges exact-match rows automatically, in one pass. Never removes a tag. Only handles small batches - see README.",
       "config": {
         "permissions": {
           "track": {
@@ -18,22 +18,18 @@
           },
           "files": {
             "read": true,
-            "list": true
+            "list": true,
+            "write": true
           }
         }
       }
     },
     {
-      "id": "billboardtag.review",
-      "name": "Review Billboard Tag Matches",
-      "description": "Steps through the fuzzy-match rows in pending.json one at a time so you can approve or skip each before it's written.",
+      "id": "billboardtag.changelog",
+      "name": "2. View Billboard Changelog",
+      "description": "Shows changelog.log — every tag a run has written, most recent first. Read-only.",
       "config": {
         "permissions": {
-          "track": {
-            "read": ["all"],
-            "modify": ["all"],
-            "modifyFields": ["tags"]
-          },
           "files": {
             "read": true,
             "list": true

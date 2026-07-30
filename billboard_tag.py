@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-billboard_tag_v3.py — populate your existing Lexicon "Charts" tags from Billboard.
+billboard_tag.py — populate your existing Lexicon "Charts" tags from Billboard.
 
 Nothing writes until you run `apply` without --dry-run and type 'yes'.
 
-    python billboard_tag_v3.py tags            # list your tags + ids
-    python billboard_tag_v3.py charts          # verify which chart slugs are real
-    python billboard_tag_v3.py fetch           # scrape -> billboard_cache.json
-    python billboard_tag_v3.py plan            # DRY RUN -> billboard_plan.csv
-    python billboard_tag_v3.py apply --dry-run # show every write, make none
-    python billboard_tag_v3.py apply           # write
+    python billboard_tag.py tags            # list your tags + ids
+    python billboard_tag.py charts          # verify which chart slugs are real
+    python billboard_tag.py fetch           # scrape -> billboard_cache.json
+    python billboard_tag.py plan            # DRY RUN -> billboard_plan.csv
+    python billboard_tag.py apply --dry-run # show every write, make none
+    python billboard_tag.py apply           # write
 
 Requires: pip install billboard.py rapidfuzz requests
 """
@@ -225,6 +225,19 @@ def norm_title(s):
     return SPACES.sub(" ", NOISE.sub(" ", s)).strip()
 
 
+def norm_title_flat(s):
+    """Like norm_title, but keeps parenthetical content as plain text
+    instead of stripping it. Billboard sometimes puts an actual subtitle
+    in parens - e.g. "Shake Your Body (Down To The Ground)" - and
+    norm_title's usual strip (needed to ignore "(Radio Edit)", "(Clean)",
+    "(MM Edit)" etc.) loses it, while a library file with the same subtitle
+    spelled out unparenthesized normalizes to something too different to
+    fuzzy-match. Used only to index an alternate chart key, same idea as
+    the double-A-side variants below."""
+    s = FEAT.sub("", _pre(s)).lower()
+    return SPACES.sub(" ", NOISE.sub(" ", s)).strip()
+
+
 def norm_artist(s):
     s = ARTIST_SPLIT.split(PAREN.sub("", _pre(s)))[0].lower()
     s = LEADING_THE.sub("", s)
@@ -234,6 +247,34 @@ def norm_artist(s):
 
 def key(artist, title):
     return f"{norm_artist(artist)}|{norm_title(title)}"
+
+
+# Matches a bare slash with no surrounding whitespace - the AC/DC shape.
+# ARTIST_SPLIT deliberately ignores this (see its docstring), so a credit
+# like "Jackson 5/The Jacksons" - an edit-pack crediting a track to
+# whichever name the act used that era - fuses into one unmatched blob
+# instead of splitting.
+BARE_SLASH = re.compile(r"\S/\S")
+
+
+def fallback_key(artist, title):
+    """A second lookup candidate for bare-slash credits, used ONLY when the
+    primary key (via `key()`) finds no match at all - exact or fuzzy. Never
+    consulted otherwise, so it can't override a real primary match: AC/DC
+    resolves through the primary key every time and never reaches this.
+
+    Takes the first slash-separated segment as an alternate primary artist.
+    Returns None for anything without a bare slash.
+    """
+    raw = PAREN.sub("", _pre(artist))
+    if not BARE_SLASH.search(raw):
+        return None
+    alt = LEADING_THE.sub("", raw.split("/")[0].lower())
+    alt = SPACES.sub(" ", NOISE.sub(" ", alt)).strip()
+    alt = ARTIST_ALIASES.get(alt, alt)
+    if not alt:
+        return None
+    return f"{alt}|{norm_title(title)}"
 
 
 # ------------------------------------------------------------- lexicon client
@@ -804,6 +845,24 @@ def phase_plan(only_changes=False, cache_path=None, plan_path=None,
                     extra += 1
     if extra:
         print(f"  +{extra} double-A-side title variants indexed")
+
+    # Same idea, for titles where Billboard's own parens hold a real
+    # subtitle rather than noise - see norm_title_flat's docstring.
+    extra2 = 0
+    for k, rec in list(chart.items()):
+        raw = rec.get("title") or ""
+        if "(" not in raw and "[" not in raw:
+            continue
+        artist_part = k.partition("|")[0]
+        flat = norm_title_flat(raw)
+        if len(flat) > 3:
+            vk = f"{artist_part}|{flat}"
+            if vk not in chart:
+                chart[vk] = rec
+                extra2 += 1
+    if extra2:
+        print(f"  +{extra2} parenthetical-subtitle title variants indexed")
+
     chart_keys = list(chart.keys())
     slug_to_label = {}
     for label, slug in CHART_MAP.items():
@@ -834,6 +893,15 @@ def phase_plan(only_changes=False, cache_path=None, plan_path=None,
                                          score_cutoff=FUZZ_THRESHOLD)
                 if hit:
                     match_key, score = hit[0], round(hit[1])
+                else:
+                    alt = fallback_key(artist, title)
+                    if alt and alt in chart:
+                        match_key, score = alt, 100
+                    elif alt:
+                        hit = process.extractOne(alt, chart_keys, scorer=fuzz.ratio,
+                                                 score_cutoff=FUZZ_THRESHOLD)
+                        if hit:
+                            match_key, score = hit[0], round(hit[1])
             if match_key:
                 rec = chart[match_key]
                 bb = f"{rec['artist']} — {rec['title']}"

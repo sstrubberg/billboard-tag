@@ -48,8 +48,8 @@ Then:
 
 ```bash
 source billboard-env/bin/activate
-python billboard_tag_v3.py charts     # verify the slugs still resolve
-python billboard_tag_v3.py plan       # read-only
+python billboard_tag.py charts     # verify the slugs still resolve
+python billboard_tag.py plan       # read-only
 ```
 
 ### Using this with a different Lexicon library
@@ -59,8 +59,8 @@ the two, and the version in this repo uses the author's names (`US Hot 100`,
 `US Hot R&B/Hip-hop`, …). Generate your own:
 
 ```bash
-python billboard_tag_v3.py init          # propose, print only
-python billboard_tag_v3.py init --yes    # write chart_map.json
+python billboard_tag.py init          # propose, print only
+python billboard_tag.py init --yes    # write chart_map.json
 ```
 
 `init` matches Billboard's canonical chart names against every tag in your
@@ -154,20 +154,20 @@ workflow above still works standalone.
 ## First run
 
 ```bash
-python billboard_tag_v3.py probe
-python billboard_tag_v3.py tags --filter chart
+python billboard_tag.py probe
+python billboard_tag.py tags --filter chart
 
-python billboard_tag_v3.py load                    # ~90 s, 7 charts
-python billboard_tag_v3.py fetch --workers 4       # ~4 h, resumable
-python billboard_tag_v3.py fetch --workers 4 --start-year 2018 \
+python billboard_tag.py load                    # ~90 s, 7 charts
+python billboard_tag.py fetch --workers 4       # ~4 h, resumable
+python billboard_tag.py fetch --workers 4 --start-year 2018 \
   --charts r-b-hip-hop-songs,country-songs,pop-songs,hot-rock-songs
 
 python cache_audit.py                              # verify coverage
-python billboard_tag_v3.py plan
+python billboard_tag.py plan
 
 # review billboard_plan.csv, then:
-python billboard_tag_v3.py apply --dry-run --limit 100
-python billboard_tag_v3.py apply --limit 100       # repeat per wave
+python billboard_tag.py apply --dry-run --limit 100
+python billboard_tag.py apply --limit 100       # repeat per wave
 python verify_applied.py
 ```
 
@@ -183,8 +183,8 @@ advances, because the "already done" count is recomputed from a fresh library
 read each time. No state file, and you can stop mid-way.
 
 ```bash
-python billboard_tag_v3.py apply --dry-run --limit 100   # -> wave_preview.csv
-python billboard_tag_v3.py apply --limit 100
+python billboard_tag.py apply --dry-run --limit 100   # -> wave_preview.csv
+python billboard_tag.py apply --limit 100
 ```
 
 `wave_preview.csv` holds exactly the tracks that wave would touch, plus
@@ -419,7 +419,7 @@ progress file means it only asks for weeks it hasn't seen), rebuilds the plan,
 and applies **exact matches only**:
 
 ```bash
-python billboard_tag_v3.py apply --min-score 100 --yes
+python billboard_tag.py apply --min-score 100 --yes
 ```
 
 Score-100 rows matched exactly after normalization, which is safe unattended.
@@ -514,9 +514,9 @@ by trial and error and could change without notice.
 Nothing special. The next weekly run picks them up. To do it immediately:
 
 ```bash
-python billboard_tag_v3.py plan --only-changes
-python billboard_tag_v3.py apply --dry-run
-python billboard_tag_v3.py apply
+python billboard_tag.py plan --only-changes
+python billboard_tag.py apply --dry-run
+python billboard_tag.py apply
 ```
 
 Already-tagged tracks are skipped, so this is always safe to re-run.
@@ -588,7 +588,7 @@ unreachable charts. Confirm with `charts --charts <slug>`.
 
 | file | tracked? | what |
 |---|---|---|
-| `billboard_tag_v3.py` | yes | the script |
+| `billboard_tag.py` | yes | the script |
 | `cache_audit.py`, `verify_applied.py`, `make_sample.py`, `timing_test.py` | yes | helpers |
 | `bootstrap.sh` | yes | one-command setup on a new machine |
 | `chart_map.json` | yes | your tag names → Billboard slugs |
