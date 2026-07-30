@@ -123,6 +123,12 @@ ls -lt *.py | head
 | `plan` | CSV | Matches library against cache, writes the review file |
 | `apply` | **Lexicon** | Writes approved tags |
 
+`plan --plugin-out <path>` additionally writes a JSON queue for the
+[Lexicon plugin](lexicon-plugin/README.md) — a native in-app alternative to
+`apply` that uses Lexicon's documented `_library` API instead of the
+undocumented `PATCH /v1/track` endpoint. It's optional; the CSV-and-`apply`
+workflow above still works standalone.
+
 ### Flags
 
 ```
@@ -133,6 +139,7 @@ ls -lt *.py | head
 --weeks N          stop after N weeks per chart (testing)
 --cache PATH       alternate cache file
 --plan PATH        alternate plan CSV
+--plugin-out PATH  on plan: also write a JSON queue for the Lexicon plugin
 --only-changes     omit NO MATCH and ALREADY TAGGED rows from the plan
 --refresh          on load: re-download datasets
 

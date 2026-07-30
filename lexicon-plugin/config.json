@@ -1,0 +1,44 @@
+{
+  "id": "billboardtag",
+  "author": {
+    "name": "Scott Strubberg"
+  },
+  "actions": [
+    {
+      "id": "billboardtag.apply",
+      "name": "Apply Billboard Tags",
+      "description": "Merges the auto-approved (exact-match) Billboard chart tags queued in pending.json into your library. Never removes a tag.",
+      "config": {
+        "permissions": {
+          "track": {
+            "read": ["all"],
+            "modify": ["all"],
+            "modifyFields": ["tags"]
+          },
+          "files": {
+            "read": true,
+            "list": true
+          }
+        }
+      }
+    },
+    {
+      "id": "billboardtag.review",
+      "name": "Review Billboard Tag Matches",
+      "description": "Steps through the fuzzy-match rows in pending.json one at a time so you can approve or skip each before it's written.",
+      "config": {
+        "permissions": {
+          "track": {
+            "read": ["all"],
+            "modify": ["all"],
+            "modifyFields": ["tags"]
+          },
+          "files": {
+            "read": true,
+            "list": true
+          }
+        }
+      }
+    }
+  ]
+}

@@ -21,7 +21,7 @@ import json
 import re
 import sys
 import time
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -774,7 +774,8 @@ def era_label(slug, first_date, slug_to_label):
     return slug_to_label.get(slug)
 
 
-def phase_plan(only_changes=False, cache_path=None, plan_path=None):
+def phase_plan(only_changes=False, cache_path=None, plan_path=None,
+               plugin_out=None):
     from rapidfuzz import fuzz, process
 
     cache_path = cache_path or CACHE
@@ -815,6 +816,7 @@ def phase_plan(only_changes=False, cache_path=None, plan_path=None):
     print(f"{len(tracks)} tracks\n")
 
     rows = []
+    plugin_auto, plugin_review = [], []
     for t in tracks:
         artist, title = t.get("artist") or "", t.get("title") or ""
         current = track_tag_names(t, by_id)
@@ -877,6 +879,21 @@ def phase_plan(only_changes=False, cache_path=None, plan_path=None):
             "apply": default,
         })
 
+        if plugin_out and action in ("ADD", "REVIEW") and to_add:
+            tag_ids = [by_label[p.lower()] for p in to_add if p.lower() in by_label]
+            if len(tag_ids) == len(to_add):   # only queue rows where every
+                entry = {                     # tag already exists in Lexicon -
+                    "track_id": t.get("id"),  # the plugin never creates tags,
+                    "artist": artist,         # same rule as `apply`
+                    "title": title,
+                    "score": score,
+                    "tags_to_add": to_add,
+                    "tag_ids": tag_ids,
+                    "billboard_match": bb,
+                    "charted_on": detail,
+                }
+                (plugin_auto if action == "ADD" else plugin_review).append(entry)
+
     order = {"REVIEW": 0, "ADD": 1, "MARK NONE": 2, "ALREADY TAGGED": 3,
              "SKIPPED": 4, "NO MATCH": 5}
     rows.sort(key=lambda r: (order[r["action"]], r["score"]))
@@ -903,6 +920,17 @@ def phase_plan(only_changes=False, cache_path=None, plan_path=None):
         for u in sorted(unknown):
             print(f"  {u}")
         print("Create them, or fix the labels in CHART_MAP.")
+
+    if plugin_out:
+        plugin_out.parent.mkdir(parents=True, exist_ok=True)
+        plugin_out.write_text(json.dumps({
+            "version": 1,
+            "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "auto": plugin_auto,
+            "review": plugin_review,
+        }, indent=1))
+        print(f"\n  plugin queue -> {plugin_out}  "
+              f"({len(plugin_auto)} auto, {len(plugin_review)} review)")
 
 
 # ------------------------------------------------------------------- applying
@@ -1151,6 +1179,9 @@ if __name__ == "__main__":
                    help="on `fetch`: override START_YEAR")
     p.add_argument("--cache", default=None, help="alternate cache file")
     p.add_argument("--plan", default=None, help="alternate plan CSV")
+    p.add_argument("--plugin-out", default=None,
+                   help="on `plan`: also write a JSON queue for the Lexicon "
+                        "plugin (e.g. the plugin's own data/pending.json)")
     p.add_argument("--tracks", default=None,
                    help="on `verify`: comma-separated Lexicon track ids")
     p.add_argument("--sample", type=int, default=0,
@@ -1195,7 +1226,8 @@ if __name__ == "__main__":
     elif a.phase == "plan":
         phase_plan(only_changes=a.only_changes,
                    cache_path=Path(a.cache) if a.cache else None,
-                   plan_path=Path(a.plan) if a.plan else None)
+                   plan_path=Path(a.plan) if a.plan else None,
+                   plugin_out=Path(a.plugin_out) if a.plugin_out else None)
     else:
         phase_apply(dry=a.dry_run,
                     plan_path=Path(a.plan) if a.plan else None,
