@@ -40,13 +40,13 @@ fi
 # `load` re-pulls the Hot 100 dataset, which updates continuously.
 echo
 echo "--- refreshing bulk datasets ---"
-$PY billboard_tag_v3.py load --refresh
+$PY billboard_tag.py load --refresh
 
 # Scrape-only charts: the progress file means this fetches just the weeks
 # added since the last run - normally one or two.
 echo
 echo "--- fetching new weeks for scrape-only charts ---"
-$PY billboard_tag_v3.py fetch --workers 4 --start-year 2024
+$PY billboard_tag.py fetch --workers 4 --start-year 2024
 
 if [ "$LEXICON_UP" = "0" ]; then
   echo
@@ -57,11 +57,11 @@ fi
 # --- match and apply ----------------------------------------------------
 echo
 echo "--- building plan ---"
-$PY billboard_tag_v3.py plan
+$PY billboard_tag.py plan
 
 echo
 echo "--- applying exact matches only ---"
-$PY billboard_tag_v3.py apply --min-score 100 --yes
+$PY billboard_tag.py apply --min-score 100 --yes
 
 # --- what still needs a human -------------------------------------------
 echo
@@ -82,7 +82,7 @@ echo "$REVIEW" | tail -n +2
 if [ "${COUNT:-0}" -gt 0 ]; then
   echo
   echo "Review billboard_plan.csv, then:"
-  echo "  $PY billboard_tag_v3.py apply"
+  echo "  $PY billboard_tag.py apply"
   # macOS notification
   osascript -e "display notification \"$COUNT tracks need review\" \
     with title \"Billboard tagging\"" 2>/dev/null || true

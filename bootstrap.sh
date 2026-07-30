@@ -48,8 +48,8 @@ if [ -f billboard_cache.json ]; then
   echo "chart cache present: $(du -h billboard_cache.json | cut -f1) — no scraping needed"
 else
   echo "no cache in repo. You'll need to build one:"
-  echo "    $PY billboard_tag_v3.py load"
-  echo "    $PY billboard_tag_v3.py fetch --workers 4    # several hours"
+  echo "    $PY billboard_tag.py load"
+  echo "    $PY billboard_tag.py fetch --workers 4    # several hours"
 fi
 
 # --- lexicon ------------------------------------------------------------
@@ -69,11 +69,11 @@ if [ -f chart_map.json ]; then
   echo "chart_map.json present ($($PY -c '
 import json;print(len(json.load(open("chart_map.json"))["charts"]))') charts)"
   echo "  If these tag names are not yours, regenerate:"
-  echo "    $PY billboard_tag_v3.py init"
+  echo "    $PY billboard_tag.py init"
 elif [ "$LEX" = "1" ]; then
   echo "no chart_map.json — proposing one from your Lexicon tags:"
   echo
-  $PY billboard_tag_v3.py init
+  $PY billboard_tag.py init
 fi
 
 # --- launchd ------------------------------------------------------------
@@ -92,6 +92,6 @@ echo
 echo "=============================================="
 echo " Next:"
 echo "   source billboard-env/bin/activate"
-echo "   python billboard_tag_v3.py charts     # verify chart slugs"
-echo "   python billboard_tag_v3.py plan       # read-only"
+echo "   python billboard_tag.py charts     # verify chart slugs"
+echo "   python billboard_tag.py plan       # read-only"
 echo "=============================================="

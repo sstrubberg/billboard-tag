@@ -1,6 +1,6 @@
 # Billboard Tag — Lexicon plugin
 
-Applies the tags `billboard_tag_v3.py` computes, from inside Lexicon,
+Applies the tags `billboard_tag.py` computes, from inside Lexicon,
 using the documented `_library` track API instead of the undocumented
 `PATCH /v1/track` the standalone script uses.
 
@@ -9,12 +9,29 @@ consumes `pending.json`, a queue the Python side writes. All the fuzzy
 matching, chart scraping, and cache maintenance still happen the way
 they always have; see the [main README](../README.md).
 
+## Scope: small batches only
+
+This plugin is **not** a replacement for the CLI's bulk `apply --limit
+N` workflow. It has no equivalent of that command's resumable waves, no
+memory of a skipped review row between runs, and each fuzzy match is a
+blocking dialog with no way to save progress and come back later —
+none of which has been tested at library-wide scale (thousands of
+rows). For a big batch (a full library import, a large tag-mapping
+change, anything more than a handful of tracks), use the CLI and
+`billboard_plan.csv` instead.
+
+What this plugin is for: the small, recurring case — a handful of new
+tracks added since the last weekly refresh — where opening Lexicon's
+native UI beats opening a CSV. The action enforces this with a
+`MAX_BATCH_SIZE` (50 rows, auto + review combined) and refuses to run
+above it, pointing you back at the CLI.
+
 ## Generating the queue
 
 On the machine that runs `plan` (the one with the chart cache):
 
 ```bash
-python billboard_tag_v3.py plan --plugin-out "<plugin folder>/Files/pending.json"
+python billboard_tag.py plan --plugin-out "<plugin folder>/Files/pending.json"
 ```
 
 `<plugin folder>` is wherever this directory ends up installed —
@@ -57,13 +74,52 @@ say.
 
 ## Actions
 
+Review and Apply used to be two separate menu items. They're merged into
+one action now — `auto` and `review` are disjoint sets of tracks, so there
+was never a real ordering dependency between them, but running an
+auto-write action *before* a review action still read as backwards. One
+action, one pass through the library, review dialogs for fuzzy matches
+interleaved with silent merges for exact matches as each track comes up.
+
 | action | what it does |
 |---|---|
-| `Apply Billboard Tags` | Merges every `auto` (score-100, exact match) row into the matching track's tags. Skips anything already tagged. Never removes a tag. |
-| `Review Billboard Tag Matches` | Walks every `review` (fuzzy, 88–99) row one at a time with an approve/skip prompt. |
+| `1. Review and Apply Billboard Tags` | One pass over the library. `review` (fuzzy, 88–99) rows get an approve/skip dialog; `auto` (score-100, exact match) rows are merged silently. Never removes a tag. |
+| `2. View Billboard Changelog` | Read-only. Shows `changelog.log` in a dialog so you don't have to go find it on disk. |
 
-Both are safe to re-run — already-applied tags are detected and skipped,
-same merge logic as the Python `apply` command.
+Safe to re-run — already-applied tags are detected and skipped, same
+merge logic as the Python `apply` command. Note it does *not* remember a
+skipped review row between runs — re-running it (e.g. after another
+`plan --plugin-out`) will ask about the same unskipped rows again.
+
+## Changelog
+
+The action appends to `changelog.log` in this plugin's `Files` folder (so,
+next to `pending.json`) — one entry per track actually touched, oldest at
+the top (natural to read in a text editor), timestamped. This is the only
+durable record of what a run did; the popup summary at the end disappears
+once closed. `2. View Billboard Changelog` shows it reversed
+(newest-first) and capped to the 20 most recent entries.
+
+```
+✓ 7/30/26, 11:16 AM   The Jackson 5/The Jacksons — Dancing Machine (CLEAN) (MM Edit)
+  applied · +US Hot 100, US Hot R&B/Hip-hop
+
+✓ 7/30/26, 11:16 AM   The Jackson 5/The Jacksons — Can You Feel It (CLEAN) (MM Edit)
+  approved · +US Hot 100, US Hot R&B/Hip-hop
+
+✗ 7/30/26, 11:20 AM   The Jackson 5/The Jacksons — Walk Right Now (CLEAN) (MM Edit)
+  skipped
+```
+
+The original single-line format (raw ISO timestamp, `track=N`, quoted
+title, bracketed tags) turned out to be illegible once actually rendered
+in a dialog — no visual separation between entries, just one dense wall
+of text. This version exists because of that.
+
+It grows forever (no rotation/truncation) — fine at this plugin's small-batch
+scale, but delete it by hand if it bothers you. Open it with `_files.read`
+from a throwaway action, or just find it on disk under
+`~/Documents/Lexicon/Plugins/billboardtag/Files/changelog.log`.
 
 ## `config.json` gotchas found by trial and error
 
@@ -72,11 +128,10 @@ same merge logic as the Python `apply` command.
 - An action's `name` may only contain `a-z`, numbers, dots, spaces,
   dash, and underscore — no brackets, no other punctuation.
 
-## Known gaps / things to verify before relying on this
+## `_ui.showInputDialog` behavior, confirmed by running it
 
-- `_ui.showInputDialog`'s exact option shape (in particular the
-  `buttons` key used in `billboardtag.review.js`) wasn't fully
-  documented at the time this was written and hasn't been tested yet.
-  Sanity-check it against the live docs, Lexicon's Discord
-  `#developers` channel, or just run the review action and see what
-  the dialog looks like.
+It's a free-text prompt with built-in **Submit**/**Skip** controls, not
+a custom-buttons chooser — a `buttons` option is silently ignored.
+Skip/Esc resolves the promise to `null`; Submit resolves to whatever
+was typed, including `""`. `title` doesn't appear to render; only
+`message` shows up in the dialog.
