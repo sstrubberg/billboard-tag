@@ -36,8 +36,13 @@
 // hang, completed cleanly. Review is different: no resumability, no
 // memory of a prior decision, and each row is a blocking dialog - a
 // large review batch means either powering through all of it in one
-// sitting or losing your place entirely. For a big batch of fuzzy
-// matches, use the CLI's CSV workflow instead:
+// sitting or losing your place entirely.
+//
+// Going over the limit does NOT block the whole run - only review gets
+// skipped for that run; auto still applies in full. An earlier version
+// threw and stopped everything here, which meant a single oversized
+// review batch could block hundreds of perfectly safe auto rows too.
+// For a big batch of fuzzy matches, use the CLI's CSV workflow instead:
 //   python billboard_tag.py apply --limit 100 --min-score 100
 //   (then hand-review billboard_plan.csv for the fuzzy rows)
 const MAX_BATCH_SIZE = 50;
@@ -79,25 +84,29 @@ if (!names.includes(DATA_FILE)) {
   );
 } else {
   const data = JSON.parse(_files.read(DATA_FILE));
-  const reviewCount = (data.review || []).length;
-
-  if (reviewCount > MAX_BATCH_SIZE) {
-    throw new Error(
-      `pending.json has ${reviewCount} review rows — over this plugin's ` +
-      `${MAX_BATCH_SIZE}-row limit for a single dialog-per-row batch. ` +
-      `(auto rows aren't capped - only review is.) For a review batch ` +
-      `this size, hand-review billboard_plan.csv instead:\n` +
+  const reviewRows = data.review || [];
+  // Over the limit: skip review entirely this run rather than block the
+  // whole action. auto isn't capped and shouldn't be held hostage by a
+  // large review batch - see MAX_BATCH_SIZE's comment. reviewQueue stays
+  // empty in this case, which just means the batch loop below never
+  // takes the review branch - every match falls through to auto as usual,
+  // no special-casing needed there.
+  const reviewOverLimit = reviewRows.length > MAX_BATCH_SIZE;
+  const reviewNote = reviewOverLimit
+    ? `Review skipped — ${reviewRows.length} rows is over this plugin's ` +
+      `${MAX_BATCH_SIZE}-row limit. Hand-review billboard_plan.csv instead:\n` +
       `  python billboard_tag.py apply --limit 100 --min-score 100`
-    );
-  }
+    : null;
 
   const autoQueue = new Map((data.auto || []).map((row) => [row.track_id, row]));
-  const reviewQueue = new Map((data.review || []).map((row) => [row.track_id, row]));
+  const reviewQueue = reviewOverLimit
+    ? new Map()
+    : new Map(reviewRows.map((row) => [row.track_id, row]));
 
   if (autoQueue.size === 0 && reviewQueue.size === 0) {
     const total = appendChangelog([]);   // no-op write, just reads the count
     _helpers.Report(
-      "Nothing to do — pending.json has no auto or review rows." +
+      (reviewNote || "Nothing to do — pending.json has no auto or review rows.") +
       (total > 0 ? ` Changelog has ${total} entries — run "python view_changelog.py" to see them.` : "")
     );
   } else {
@@ -177,7 +186,10 @@ if (!names.includes(DATA_FILE)) {
 
     const missing = remaining.size;
     _helpers.Report(
-      `Applied ${applied} (${alreadyDone} already tagged) · Reviewed ${approved + skipped} (${approved} approved, ${skipped} skipped)` +
+      `Applied ${applied} (${alreadyDone} already tagged) · ` +
+      (reviewOverLimit
+        ? reviewNote
+        : `Reviewed ${approved + skipped} (${approved} approved, ${skipped} skipped)`) +
       (missing > 0 ? ` · ${missing} not found in library.` : ".") +
       // Always mentioned, not just on runs that changed something - a
       // historical changelog you only hear about on the run that wrote to

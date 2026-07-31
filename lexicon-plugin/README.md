@@ -20,9 +20,13 @@ Confirmed working at real scale: 694 auto rows in one run, no timeout,
 no hang, completed cleanly. Review is the part with no resumability
 and no memory of a prior decision — each row
 is a blocking dialog with no way to save progress and come back later.
-`MAX_BATCH_SIZE` (50) caps **review only**: over that, the action
-refuses to run and points you at the CLI's `apply --limit N` +
-hand-reviewed `billboard_plan.csv` instead.
+`MAX_BATCH_SIZE` (50) caps **review only**: over that, review is
+skipped for that run (with a message pointing at the CLI's
+`apply --limit N` + hand-reviewed `billboard_plan.csv`) but auto still
+applies in full. An earlier version threw and stopped the whole action
+here, which meant one oversized review batch could block hundreds of
+perfectly safe auto rows too — fixed after realizing that's exactly
+what would happen with, say, 51 review rows.
 
 What this plugin is for: the small, recurring review case — a handful
 of fuzzy matches to approve or skip since the last refresh — where
