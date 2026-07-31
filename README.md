@@ -337,22 +337,13 @@ Single Sales (`hot-dance-singles-sales`, archive ends ~2013 — see limitations)
 Hot Dance/Pop (`hot-dance-pop-songs`, 2025+, which is its whole lifetime),
 Hot Rap (`rap-song`), Latin Pop Airplay, Rhythmic Airplay (`rhythmic-40`),
 Rock & Alternative Airplay (`rock-airplay`), Tropical Airplay
-(`latin-tropical-airplay`).
-
-**Scrape-only, added later** — these five were originally marked "no archive"
-under the wrong slugs. The *real* slugs (found by walking Billboard's own
-chart-hub pages rather than guessing) have genuine historical archives; the
-start date below is each chart's actual real-world launch, confirmed by
-Billboard's own fallback behavior (asking for a date before a chart existed
-returns its true launch week, not silently-wrong current data):
-
-| tag | slug | archive starts |
-|---|---|---|
-| US Mainstream Rock | `hot-mainstream-rock-tracks` | 1981-03-21 (real launch, as "Top Tracks") |
-| US Alternative Airplay | `alternative-airplay` | 1988-09-10 (real launch, as "Modern Rock Tracks") |
-| US Bubbling Under Hot 100 | `bubbling-under-hot-100-singles` | 1992-12-05 (chart existed 1959–1985 too, then went dark; that stretch survives only in a print reference book, not scrapeable) |
-| US R&B/Hip-hop Airplay | `hot-r-and-b-hip-hop-airplay` | 1992-12-05 (real launch — Billboard's R&B chart converted to BDS airplay-only monitoring this exact date). 70s/80s R&B is still covered, by `r-b-hip-hop-songs` above |
-| US Dance/Mix Show Airplay | `hot-dance-airplay` | 2003-08-16 (real launch) |
+(`latin-tropical-airplay`), Mainstream Rock (`hot-mainstream-rock-tracks`,
+1981+), Alternative Airplay (`alternative-airplay`, 1988+), Bubbling Under
+Hot 100 (`bubbling-under-hot-100-singles`, 1992+ — also ran 1959–85, but that
+stretch only survives in print, not scrapeable), R&B/Hip-hop Airplay
+(`hot-r-and-b-hip-hop-airplay`, 1992+ — 70s/80s R&B is covered by
+`r-b-hip-hop-songs` above), Dance/Mix Show Airplay (`hot-dance-airplay`,
+2003+).
 
 **No Billboard data** — Smooth Jazz Airplay serves the current week for any
 date requested. Pop 100, Hot Crossover, and Hot Singles Sales were
@@ -363,11 +354,9 @@ name; the closest US equivalents are Mainstream Rock, Hot Rock & Alternative,
 and Rock & Alternative Airplay, all above.
 
 Re-check any of these with `charts --charts <slug>` if Billboard restores
-archives — and don't trust a "no archive" verdict without first checking
-whether the slug itself is even real. All five charts above were wrongly
-written off for that exact reason; see them found by walking
-`billboard.com/charts/genre/<genre>/` for real links instead of guessing at
-slug names.
+archives — and verify the slug itself is real (Billboard's genre hub pages,
+`billboard.com/charts/genre/<genre>/`, list actual links) before trusting a
+"no archive" verdict.
 
 ---
 
