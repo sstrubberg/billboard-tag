@@ -28,12 +28,18 @@
 // Skip/Esc resolves to `null`; Submit resolves to whatever was typed
 // (including ""). `title` doesn't appear to render - only `message` does.
 //
-// This plugin is deliberately scoped to small batches only - a handful
-// of tracks at a time. It has no equivalent of the CLI's resumable
-// `apply --limit N` waves, and walking a huge library from inside the
-// JS sandbox is untested at scale. For a bulk change, use the CLI's CSV
-// workflow instead:
+// MAX_BATCH_SIZE guards `review` only, not `auto`. Auto-apply is
+// idempotent and self-resuming - already-tagged tracks are skipped on
+// every run, so even a bad interruption just means re-running picks up
+// where it left off - so there's no real reason to cap it. Confirmed
+// working at real scale: 694 auto rows in one run, no timeout, no
+// hang, completed cleanly. Review is different: no resumability, no
+// memory of a prior decision, and each row is a blocking dialog - a
+// large review batch means either powering through all of it in one
+// sitting or losing your place entirely. For a big batch of fuzzy
+// matches, use the CLI's CSV workflow instead:
 //   python billboard_tag.py apply --limit 100 --min-score 100
+//   (then hand-review billboard_plan.csv for the fuzzy rows)
 const MAX_BATCH_SIZE = 50;
 
 // Every decision also appends an entry to changelog.log in this plugin's
@@ -73,15 +79,15 @@ if (!names.includes(DATA_FILE)) {
   );
 } else {
   const data = JSON.parse(_files.read(DATA_FILE));
-  const totalRows = (data.auto || []).length + (data.review || []).length;
+  const reviewCount = (data.review || []).length;
 
-  if (totalRows > MAX_BATCH_SIZE) {
+  if (reviewCount > MAX_BATCH_SIZE) {
     throw new Error(
-      `pending.json has ${totalRows} rows (auto + review) — over this ` +
-      `plugin's ${MAX_BATCH_SIZE}-row batch limit. For a change this size, ` +
-      `use the CLI instead:\n` +
-      `  python billboard_tag.py apply --limit 100 --min-score 100\n` +
-      `then hand-review billboard_plan.csv for the fuzzy rows.`
+      `pending.json has ${reviewCount} review rows — over this plugin's ` +
+      `${MAX_BATCH_SIZE}-row limit for a single dialog-per-row batch. ` +
+      `(auto rows aren't capped - only review is.) For a review batch ` +
+      `this size, hand-review billboard_plan.csv instead:\n` +
+      `  python billboard_tag.py apply --limit 100 --min-score 100`
     );
   }
 

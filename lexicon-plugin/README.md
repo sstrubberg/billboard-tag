@@ -12,19 +12,24 @@ they always have; see the [main README](../README.md).
 ## Scope: small batches only
 
 This plugin is **not** a replacement for the CLI's bulk `apply --limit
-N` workflow. It has no equivalent of that command's resumable waves, no
-memory of a skipped review row between runs, and each fuzzy match is a
-blocking dialog with no way to save progress and come back later —
-none of which has been tested at library-wide scale (thousands of
-rows). For a big batch (a full library import, a large tag-mapping
-change, anything more than a handful of tracks), use the CLI and
-`billboard_plan.csv` instead.
+N` workflow, but the two halves of a run don't carry the same risk.
+Auto-apply (exact matches) is idempotent and self-resuming — already-
+tagged tracks are skipped on every run, so an interruption just means
+re-running picks up where it left off — so it's **not** batch-capped.
+Confirmed working at real scale: 694 auto rows in one run, no timeout,
+no hang, completed cleanly. Review is the part with no resumability
+and no memory of a prior decision — each row
+is a blocking dialog with no way to save progress and come back later.
+`MAX_BATCH_SIZE` (50) caps **review only**: over that, the action
+refuses to run and points you at the CLI's `apply --limit N` +
+hand-reviewed `billboard_plan.csv` instead.
 
-What this plugin is for: the small, recurring case — a handful of new
-tracks added since the last weekly refresh — where opening Lexicon's
-native UI beats opening a CSV. The action enforces this with a
-`MAX_BATCH_SIZE` (50 rows, auto + review combined) and refuses to run
-above it, pointing you back at the CLI.
+What this plugin is for: the small, recurring review case — a handful
+of fuzzy matches to approve or skip since the last refresh — where
+opening Lexicon's native UI beats opening a CSV. Bulk exact-match
+tagging (a full library import, a large tag-mapping change) can go
+through the plugin fine; it's specifically a big pile of *fuzzy*
+matches that should go through the CLI instead.
 
 ## Generating the queue
 
