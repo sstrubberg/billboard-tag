@@ -3,7 +3,7 @@
 Tags tracks in a Lexicon DJ library with the Billboard charts they appeared on,
 using the chart tags that already exist in the library's `Charts` category.
 
-Script version: `2026-07-28.3`
+Script version: `2026-07-31.1`
 
 Nothing is written to Lexicon until you run `apply` without `--dry-run` and
 confirm. Every other command is read-only.
@@ -331,30 +331,41 @@ Of 32 Charts-category tags (one real library's count, your own will differ),
 The frozen two have no navigable archive; scraping can't extend them. Don't
 pass them to `fetch`.
 
-**Scrape-only** — Adult Alternative Airplay (`triple-a`), Adult Contemporary,
-Adult Pop Airplay, Dance Club (`dance-club-play-songs`, ends 2020-03), Dance
-Single Sales (`hot-dance-singles-sales`, archive ends ~2013 — see limitations),
-Hot Dance/Pop (`hot-dance-pop-songs`, 2025+, which is its whole lifetime),
-Hot Rap (`rap-song`), Latin Pop Airplay, Rhythmic Airplay (`rhythmic-40`),
-Rock & Alternative Airplay (`rock-airplay`), Tropical Airplay
-(`latin-tropical-airplay`), Mainstream Rock (`hot-mainstream-rock-tracks`,
-1981+), Alternative Airplay (`alternative-airplay`, 1988+), Bubbling Under
-Hot 100 (`bubbling-under-hot-100-singles`, 1992+ — also ran 1959–85, but that
-stretch only survives in print, not scrapeable), R&B/Hip-hop Airplay
-(`hot-r-and-b-hip-hop-airplay`, 1992+ — 70s/80s R&B is covered by
-`r-b-hip-hop-songs` above), Dance/Mix Show Airplay (`hot-dance-airplay`,
-2003+).
+**Scrape-only**
 
-**No Billboard data** — Smooth Jazz Airplay serves the current week for any
-date requested. Pop 100, Hot Crossover, and Hot Singles Sales were
-discontinued with no archive. The five UK charts are Official Charts Company.
-Billboard 200 is an albums chart needing a different join. "US Rock & Metal"
-isn't a real Billboard chart at all — that's an Official Charts Company (UK)
-name; the closest US equivalents are Mainstream Rock, Hot Rock & Alternative,
-and Rock & Alternative Airplay, all above.
+| tag | slug | coverage |
+|---|---|---|
+| US Adult Alternative Airplay | `triple-a` | † → current |
+| US Adult Contemporary | `adult-contemporary` | † → current |
+| US Adult Pop Airplay | `adult-pop-songs` | 2016 → current |
+| US Dance Club | `dance-club-play-songs` | † → 2020-03 |
+| US Dance Single Sales | `hot-dance-singles-sales` | broken, captures nothing — see limitations |
+| US Hot Dance/Pop | `hot-dance-pop-songs` | 2025 → current, whole lifetime |
+| US Hot Rap | `rap-song` | † → current |
+| US Latin Pop Airplay | `latin-pop-airplay` | † → current |
+| US Rhythmic Airplay | `rhythmic-40` | † → current |
+| US Rock & Alternative Airplay | `rock-airplay` | † → current |
+| US Tropical Airplay | `latin-tropical-airplay` | † → current |
+| US Mainstream Rock | `hot-mainstream-rock-tracks` | 1981 → current |
+| US Alternative Airplay | `alternative-airplay` | 1988 → current |
+| US Bubbling Under Hot 100 | `bubbling-under-hot-100-singles` | 1992 → current |
+| US R&B/Hip-hop Airplay | `hot-r-and-b-hip-hop-airplay` | 1992 → current |
+| US Dance/Mix Show Airplay | `hot-dance-airplay` | 2003 → current |
 
-Re-check any of these with `charts --charts <slug>` if Billboard restores
-archives — and verify the slug itself is real (Billboard's genre hub pages,
+† start date unreliable — see [Known limitations](#known-limitations).
+Real archive, just mis-filed under 1958 by early scrapes; doesn't affect
+which tags get applied, only the displayed year.
+
+Bubbling Under Hot 100 also ran 1959–85; that stretch survives only in
+print, not scrapeable. R&B/Hip-hop Airplay's 70s/80s equivalent is already
+covered by `r-b-hip-hop-songs` (dataset-backed) above.
+
+For charts with no real archive at all — discontinued, UK-only, wrong data
+shape, or never real to begin with — `DEFAULT_CHART_MAP`'s comments in
+`billboard_tag.py` are the canonical list. Which of those apply to *your*
+library depends on which tags you have; not worth duplicating here. Re-check
+any of them with `charts --charts <slug>` if Billboard restores an archive —
+and verify the slug itself is real (Billboard's genre hub pages,
 `billboard.com/charts/genre/<genre>/`, list actual links) before trusting a
 "no archive" verdict.
 
