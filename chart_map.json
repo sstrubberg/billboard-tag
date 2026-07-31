@@ -19,6 +19,11 @@
     "US Dance Single Sales": "hot-dance-singles-sales",
     "US Hot Rock & Alternative": "hot-rock-songs",
     "US Rock & Alternative Airplay": "rock-airplay",
-    "US Adult Alternative Airplay": "triple-a"
+    "US Adult Alternative Airplay": "triple-a",
+    "US Bubbling Under Hot 100": "bubbling-under-hot-100-singles",
+    "US Dance/Mix Show Airplay": "hot-dance-airplay",
+    "US R&B/Hip-hop Airplay": "hot-r-and-b-hip-hop-airplay",
+    "US Alternative Airplay": "alternative-airplay",
+    "US Mainstream Rock": "hot-mainstream-rock-tracks"
   }
 }

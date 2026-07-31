@@ -42,19 +42,33 @@ PLAN = Path("billboard_plan.csv")
 # Comment out any chart you don't care about — fewer charts, faster scrape.
 DEFAULT_CHART_MAP = {
     "US Hot 100":                   "hot-100",
-    # NO ARCHIVE (verified 2026-07): serves the current week for any date
-    #"US Bubbling Under Hot 100":    "bubbling-under-hot-100",
+    # Chart ran Jun 1959 - Aug 1985, went dark, resumed Dec 1992 - current.
+    # "bubbling-under-hot-100" (no "-singles") was the wrong slug - that one
+    # has no archive at all. This one has a real archive back to 1992, but
+    # nothing before that: the 1985 gap is real (Billboard stopped
+    # publishing it), and 1959-1985 exists only in print (Joel Whitburn's
+    # reference book), not anywhere scrapeable.
+    "US Bubbling Under Hot 100":    "bubbling-under-hot-100-singles",
     "US Pop Airplay":               "pop-songs",
     "US Adult Pop Airplay":         "adult-pop-songs",
     "US Adult Contemporary":        "adult-contemporary",
     "US Rhythmic Airplay":          "rhythmic-40",
     "US Dance Club":                "dance-club-play-songs",   # frozen at 2020
-    # NO ARCHIVE (verified 2026-07): serves the current week for any date
-    #"US Dance/Mix Show Airplay":    "dance-mix-show-airplay",
+    # Launched Aug 16 2003 - that's the chart's real age, not an archive
+    # limit. "dance-mix-show-airplay" was the wrong slug (no archive at all).
+    "US Dance/Mix Show Airplay":    "hot-dance-airplay",
     # Dataset covers 2013-2018. Scraping can't extend it (no archive), so
     # this chart is frozen at 2018 - do not pass it to `fetch`.
     "US Hot Dance/Electronic":      "hot-dance-electronic-songs",
     "US Hot R&B/Hip-hop":           "r-b-hip-hop-songs",
+    # Launched Dec 5 1992 - Billboard's R&B chart converted to BDS
+    # airplay-only monitoring that exact date, so there's no archive before
+    # it because the chart didn't exist in this form. 70s/80s R&B is still
+    # covered - by "US Hot R&B/Hip-hop" above, the older combined
+    # sales+airplay chart, dataset-backed to 1958. "r-and-b-hip-hop-airplay"
+    # (no "hot-" prefix) was the wrong slug - that's the ARTIST chart, a
+    # different data shape entirely, not songs.
+    "US R&B/Hip-hop Airplay":       "hot-r-and-b-hip-hop-airplay",
     "US Hot Rap":                   "rap-song",
     "US Hot Country":               "country-songs",
     # Dataset covers 1986-2018. Scraping can't extend it (no archive), so
@@ -68,11 +82,15 @@ DEFAULT_CHART_MAP = {
     "US Dance Single Sales":        "hot-dance-singles-sales",  # archive ends ~2013
     "US Hot Rock & Alternative":    "hot-rock-songs",
     "US Rock & Alternative Airplay": "rock-airplay",
-    # NO ARCHIVE (verified 2026-07): serves the current week for any date
-    #"US Alternative Airplay":       "alternative-songs",
+    # Launched Sep 10 1988 (as "Modern Rock Tracks") - that's the chart's
+    # real age, not an archive limit; alternative rock wasn't a chart
+    # category before then. "alternative-songs" was the wrong slug (no
+    # archive at all).
+    "US Alternative Airplay":       "alternative-airplay",
     "US Adult Alternative Airplay": "triple-a",
-    # NO ARCHIVE (verified 2026-07): serves the current week for any date
-    #"US Mainstream Rock":           "mainstream-rock-songs",
+    # Launched Mar 21 1981 (as "Top Tracks") - real age, not an archive
+    # limit. "mainstream-rock-songs" was the wrong slug (no archive at all).
+    "US Mainstream Rock":           "hot-mainstream-rock-tracks",
     # NO ARCHIVE (verified 2026-07): serves the current week for any date
     #"US Smooth Jazz Airplay":       "smooth-jazz-songs",
 
@@ -97,9 +115,13 @@ DEFAULT_CHART_MAP = {
     # SUSPECT — these return no chart date and truncated entry counts, which
     # may mean the page is Pro-gated and only a teaser is public. If they
     # ignore the date parameter they're useless; verify before scraping:
-    #   adult-r-and-b-songs, r-and-b-hip-hop-airplay, dance-mix-show-airplay,
-    #   hot-dance-electronic-songs, hot-latin-songs, mainstream-rock-songs,
+    #   adult-r-and-b-songs, hot-dance-electronic-songs, hot-latin-songs,
     #   smooth-jazz-songs, hot-dance-singles-sales
+    #
+    # NOT a real Billboard chart - "Rock & Metal" is an Official Charts
+    # Company (UK) name; the closest US equivalents are Mainstream Rock,
+    # Hot Rock & Alternative, and Rock & Alternative Airplay, all above:
+    #   US Rock & Metal
     #
     # NOT Billboard — Official Charts Company:
     #   UK Club, UK Dance, UK Hip-Hop/R&B, UK Indie, UK Rock & Metal
@@ -129,6 +151,11 @@ KNOWN_CHARTS = {
     "hot-latin-songs":            "Hot Latin Songs",
     "latin-pop-airplay":          "Latin Pop Airplay",
     "latin-tropical-airplay":     "Tropical Airplay",
+    "bubbling-under-hot-100-singles": "Bubbling Under Hot 100",
+    "hot-dance-airplay":          "Dance/Mix Show Airplay",
+    "hot-r-and-b-hip-hop-airplay": "R&B/Hip-Hop Airplay",
+    "alternative-airplay":        "Alternative Airplay",
+    "hot-mainstream-rock-tracks": "Mainstream Rock",
 }
 
 CHART_MAP_FILE = Path("chart_map.json")
@@ -556,7 +583,7 @@ VERIFY_BLANKS = True       # under concurrency, re-check any blank week once,
 # weeks, so sampling every 4th loses almost nothing there. Charts built around
 # short runs need every week or they fall apart.
 STEP_WEEKS_BY_SLUG = {
-    "bubbling-under-hot-100": 1,   # one-week entries are the point
+    "bubbling-under-hot-100-singles": 1,   # one-week entries are the point
     "hot-dance-singles-sales": 1,  # sales charts turn over fast
 }
 LEAD_BLANK_LIMIT = 400     # blank weeks BEFORE any data -> give up on the chart

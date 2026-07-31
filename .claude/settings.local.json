@@ -16,7 +16,9 @@
       "Bash(/tmp/testenv/bin/pip install *)",
       "Bash(/tmp/testenv/bin/python /private/tmp/claude-501/-Users-scottstrubberg-billboard-tag/fdf5ef73-7ebc-47cc-845b-22ac1ff92d34/scratchpad/test_plugin_out.py)",
       "Bash(rm -f /tmp/fake_cache.json /tmp/fake_plan.csv /tmp/fake_pending.json)",
-      "Bash(rm -rf /tmp/testenv)"
+      "Bash(rm -rf /tmp/testenv)",
+      "Bash(git checkout *)",
+      "Bash(git pull *)"
     ]
   }
 }

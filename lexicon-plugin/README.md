@@ -74,17 +74,17 @@ say.
 
 ## Actions
 
-Review and Apply used to be two separate menu items. They're merged into
-one action now — `auto` and `review` are disjoint sets of tracks, so there
-was never a real ordering dependency between them, but running an
-auto-write action *before* a review action still read as backwards. One
-action, one pass through the library, review dialogs for fuzzy matches
-interleaved with silent merges for exact matches as each track comes up.
+One action: `Review and Apply Billboard Tags`. It used to be two separate
+menu items (`Apply`, `Review`) — merged since `auto` and `review` are
+disjoint sets of tracks, so there was never a real ordering dependency
+between them, but running an auto-write action *before* a review action
+still read as backwards. One pass through the library, review dialogs
+for fuzzy matches interleaved with silent merges for exact matches as
+each track comes up. Never removes a tag.
 
-| action | what it does |
-|---|---|
-| `1. Review and Apply Billboard Tags` | One pass over the library. `review` (fuzzy, 88–99) rows get an approve/skip dialog; `auto` (score-100, exact match) rows are merged silently. Never removes a tag. |
-| `2. View Billboard Changelog` | Read-only. Shows `changelog.log` in a dialog so you don't have to go find it on disk. |
+There used to be a second action, `View Billboard Changelog`, a
+read-only dialog viewer. It's gone — see [Changelog](#changelog) below
+for why, and what replaced it.
 
 Safe to re-run — already-applied tags are detected and skipped, same
 merge logic as the Python `apply` command. Note it does *not* remember a
@@ -97,8 +97,7 @@ The action appends to `changelog.log` in this plugin's `Files` folder (so,
 next to `pending.json`) — one entry per track actually touched, oldest at
 the top (natural to read in a text editor), timestamped. This is the only
 durable record of what a run did; the popup summary at the end disappears
-once closed. `2. View Billboard Changelog` shows it reversed
-(newest-first) and capped to the 20 most recent entries.
+once closed.
 
 ```
 ✓ 7/30/26, 11:16 AM   The Jackson 5/The Jacksons — Dancing Machine (CLEAN) (MM Edit)
@@ -111,15 +110,18 @@ once closed. `2. View Billboard Changelog` shows it reversed
   skipped
 ```
 
-The original single-line format (raw ISO timestamp, `track=N`, quoted
-title, bracketed tags) turned out to be illegible once actually rendered
-in a dialog — no visual separation between entries, just one dense wall
-of text. This version exists because of that.
+**`python view_changelog.py`** (repo root, no venv needed) opens the file
+in your default text app directly. This plugin used to also have an
+in-app `View Billboard Changelog` action showing the same content via
+`_ui.showInputDialog`, capped to the 20 most recent entries — removed,
+because that dialog turns out not to be built for content this long:
+rather than scrolling in a bounded box, it just kept expanding, so a
+real run (27 entries, one batch) produced an unreadable, mostly
+off-screen wall of text with the Submit/Skip controls pushed out of
+view. Confirmed by running it twice, not by inspection.
 
 It grows forever (no rotation/truncation) — fine at this plugin's small-batch
-scale, but delete it by hand if it bothers you. Open it with `_files.read`
-from a throwaway action, or just find it on disk under
-`~/Documents/Lexicon/Plugins/billboardtag/Files/changelog.log`.
+scale, but delete it by hand if it bothers you.
 
 ## `config.json` gotchas found by trial and error
 

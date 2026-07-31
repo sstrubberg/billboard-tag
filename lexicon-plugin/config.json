@@ -7,8 +7,8 @@
   "actions": [
     {
       "id": "billboardtag.reviewapply",
-      "name": "1. Review and Apply Billboard Tags",
-      "description": "Reviews fuzzy-match rows one at a time (approve/skip) and merges exact-match rows automatically, in one pass. Never removes a tag. Only handles small batches - see README.",
+      "name": "Review and Apply Billboard Tags",
+      "description": "Reviews fuzzy-match rows one at a time (approve/skip) and merges exact-match rows automatically, in one pass. Never removes a tag. Only handles small batches - see README. After it finishes, run `python view_changelog.py` to see what changed.",
       "config": {
         "permissions": {
           "track": {
@@ -20,19 +20,6 @@
             "read": true,
             "list": true,
             "write": true
-          }
-        }
-      }
-    },
-    {
-      "id": "billboardtag.changelog",
-      "name": "2. View Billboard Changelog",
-      "description": "Shows changelog.log — every tag a run has written, most recent first. Read-only.",
-      "config": {
-        "permissions": {
-          "files": {
-            "read": true,
-            "list": true
           }
         }
       }

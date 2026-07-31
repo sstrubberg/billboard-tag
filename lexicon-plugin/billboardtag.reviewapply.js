@@ -37,20 +37,30 @@
 const MAX_BATCH_SIZE = 50;
 
 // Every decision also appends an entry to changelog.log in this plugin's
-// Files folder - see billboardtag.changelog.js for the viewer.
+// Files folder - see ../view_changelog.py (repo root) to read it. There
+// used to be an in-app viewer action too; removed because
+// _ui.showInputDialog isn't built for content that long (see README).
 const CHANGELOG_FILE = "changelog.log";
 
 function friendlyStamp() {
   return new Date().toLocaleString(undefined, { dateStyle: "short", timeStyle: "short" });
 }
 
+// Appends `entries` (may be empty) and returns the changelog's total entry
+// count afterward, so the caller can always mention it - not just on runs
+// that added something. A historical changelog you only hear about on the
+// run that wrote to it is easy to forget exists.
 function appendChangelog(entries) {
-  if (entries.length === 0) return;
   const existing = _files.list().includes(CHANGELOG_FILE)
     ? _files.read(CHANGELOG_FILE).trimEnd()
     : "";
-  const sep = existing ? "\n\n" : "";
-  _files.write(CHANGELOG_FILE, existing + sep + entries.join("\n\n") + "\n");
+  let combined = existing;
+  if (entries.length > 0) {
+    const sep = existing ? "\n\n" : "";
+    combined = existing + sep + entries.join("\n\n") + "\n";
+    _files.write(CHANGELOG_FILE, combined);
+  }
+  return combined ? combined.trim().split("\n\n").filter((e) => e.trim()).length : 0;
 }
 
 const DATA_FILE = "pending.json";
@@ -79,7 +89,11 @@ if (!names.includes(DATA_FILE)) {
   const reviewQueue = new Map((data.review || []).map((row) => [row.track_id, row]));
 
   if (autoQueue.size === 0 && reviewQueue.size === 0) {
-    _helpers.Report("Nothing to do — pending.json has no auto or review rows.");
+    const total = appendChangelog([]);   // no-op write, just reads the count
+    _helpers.Report(
+      "Nothing to do — pending.json has no auto or review rows." +
+      (total > 0 ? ` Changelog has ${total} entries — run "python view_changelog.py" to see them.` : "")
+    );
   } else {
     let applied = 0;
     let alreadyDone = 0;
@@ -153,13 +167,18 @@ if (!names.includes(DATA_FILE)) {
       batch = await _library.track.getNextAllBatch();
     }
 
-    appendChangelog(changes);
+    const logTotal = appendChangelog(changes);
 
     const missing = remaining.size;
     _helpers.Report(
       `Applied ${applied} (${alreadyDone} already tagged) · Reviewed ${approved + skipped} (${approved} approved, ${skipped} skipped)` +
       (missing > 0 ? ` · ${missing} not found in library.` : ".") +
-      (changes.length > 0 ? ` See ${CHANGELOG_FILE} for details.` : "")
+      // Always mentioned, not just on runs that changed something - a
+      // historical changelog you only hear about on the run that wrote to
+      // it is easy to forget exists. Points at the CLI viewer, not the
+      // removed in-app one - _ui.showInputDialog isn't built for content
+      // this long (see README).
+      (logTotal > 0 ? ` Changelog has ${logTotal} entries — run "python view_changelog.py" to see them.` : "")
     );
   }
 }
