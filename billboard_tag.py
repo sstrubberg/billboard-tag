@@ -26,7 +26,7 @@ from pathlib import Path
 
 import requests
 
-VERSION = "2026-07-28.3"   # printed at startup so you can tell at a
+VERSION = "2026-07-31.1"   # printed at startup so you can tell at a
                            # glance which copy you are running
 LEXICON = "http://localhost:48624/v1"
 # Written with sorted keys and stable formatting on purpose: the cache is

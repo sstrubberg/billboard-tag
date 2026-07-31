@@ -87,6 +87,9 @@ http://localhost:48624/v1/tracks?limit=1
 
 ### 2. Virtual environment
 
+`bootstrap.sh` already does this for you — this is the manual equivalent,
+only needed if you're not using it (Windows, or you'd rather see each step).
+
 Modern Python refuses to install into the system interpreter
 (`error: externally-managed-environment`).
 
@@ -98,14 +101,17 @@ pip install -r requirements.txt
 
 Activation is per-terminal. Your prompt shows `(billboard-env)` when it's on.
 
-### 3. Check you're running the file you think you are
+### 3. Make sure you're running current code
 
-Every command prints `billboard_tag v<VERSION>` first. Browsers append `(1)`
-rather than overwriting, which will silently cost you an hour.
+Every command prints `billboard_tag v<VERSION>` first — a quick way to
+eyeball whether your checkout is stale. Update with:
 
 ```bash
-ls -lt *.py | head
+git pull
 ```
+
+If you've made local edits and `git pull` refuses, `git status` will tell
+you what's in the way.
 
 ---
 
