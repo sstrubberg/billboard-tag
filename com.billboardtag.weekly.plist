@@ -18,11 +18,11 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/scottstrubberg/billboard-tag/weekly_update.sh</string>
+        <string>/Users/YOURNAME/billboard-tag/weekly_update.sh</string>
     </array>
 
     <key>WorkingDirectory</key>
-    <string>/Users/scottstrubberg/billboard-tag</string>
+    <string>/Users/YOURNAME/billboard-tag</string>
 
     <!-- Sundays at 09:00 -->
     <key>StartCalendarInterval</key>
