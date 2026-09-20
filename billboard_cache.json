@@ -15422,13 +15422,13 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 3
    },
    "rock-airplay": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
-    "peak": 16
+    "last": "2026-09-19",
+    "peak": 15
    }
   },
   "title": "Starless"
@@ -21556,22 +21556,49 @@
   "charts": {
    "hot-100": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
-    "peak": 57
+    "last": "2026-09-19",
+    "peak": 30
    }
   },
   "title": "Ain't In LA"
+ },
+ "adela|boys": {
+  "artist": "ADELA",
+  "charts": {
+   "bubbling-under-hot-100-singles": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 24
+   },
+   "hot-dance-pop-songs": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 8
+   }
+  },
+  "title": "Boys"
  },
  "adela|kgb": {
   "artist": "ADELA",
   "charts": {
    "hot-dance-pop-songs": {
     "first": "2026-05-02",
-    "last": "2026-05-02",
-    "peak": 11
+    "last": "2026-09-19",
+    "peak": 10
    }
   },
   "title": "KGB"
+ },
+ "adela|nicole kidman": {
+  "artist": "ADELA",
+  "charts": {
+   "hot-100": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 45
+   }
+  },
+  "title": "Nicole Kidman"
  },
  "adele bertei|build me a bridge": {
   "artist": "Adele Bertei",
@@ -29910,13 +29937,13 @@
   "charts": {
    "rock-airplay": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 38
+    "last": "2026-09-19",
+    "peak": 36
    },
    "triple-a": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
-    "peak": 8
+    "last": "2026-09-19",
+    "peak": 7
    }
   },
   "title": "I Feel Hope Coming"
@@ -35339,8 +35366,8 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 12
+    "last": "2026-09-19",
+    "peak": 11
    }
   },
   "title": "Yo Era Poesia"
@@ -35988,7 +36015,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 8
    }
   },
@@ -37144,7 +37171,7 @@
   "charts": {
    "adult-contemporary": {
     "first": "2025-05-17",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "adult-pop-songs": {
@@ -43298,12 +43325,12 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 10
    },
    "rock-airplay": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 25
    }
   },
@@ -45315,7 +45342,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 45
    },
    "hot-rock-songs": {
@@ -58243,6 +58270,17 @@
   },
   "title": "Hesitate"
  },
+ "anotr|talk to you": {
+  "artist": "ANOTR Featuring 54 Ultra",
+  "charts": {
+   "hot-dance-airplay": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 37
+   }
+  },
+  "title": "Talk To You"
+ },
  "ansley|don julio": {
   "artist": "Ansley",
   "charts": {
@@ -59648,7 +59686,7 @@
   "charts": {
    "rhythmic-40": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 35
    }
   },
@@ -64682,17 +64720,17 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 14
    },
    "adult-pop-songs": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 6
    },
    "hot-100": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "pop-songs": {
@@ -64702,7 +64740,7 @@
    },
    "rhythmic-40": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    }
   },
@@ -65197,12 +65235,12 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 34
+    "last": "2026-09-19",
+    "peak": 33
    },
    "hot-100": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 4
    }
   },
@@ -66912,7 +66950,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 3
    }
   },
@@ -68927,7 +68965,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 21
    }
   },
@@ -70581,6 +70619,11 @@
     "first": "2026-09-05",
     "last": "2026-09-12",
     "peak": 17
+   },
+   "hot-100": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 95
    }
   },
   "title": "Stop The Wedding!"
@@ -74868,8 +74911,8 @@
    },
    "hot-100": {
     "first": "2026-08-08",
-    "last": "2026-09-12",
-    "peak": 60
+    "last": "2026-09-19",
+    "peak": 57
    },
    "pop-songs": {
     "first": "2025-08-09",
@@ -75644,12 +75687,12 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-04-11",
-    "last": "2026-09-12",
-    "peak": 5
+    "last": "2026-09-19",
+    "peak": 4
    },
    "rock-airplay": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 23
    }
   },
@@ -75781,7 +75824,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 24
    }
   },
@@ -76260,8 +76303,8 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
-    "peak": 16
+    "last": "2026-09-19",
+    "peak": 15
    }
   },
   "title": "Crying Fire"
@@ -79503,7 +79546,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 25
    }
   },
@@ -83156,8 +83199,8 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 38
+    "last": "2026-09-19",
+    "peak": 35
    }
   },
   "title": "Mileage"
@@ -84591,13 +84634,13 @@
    },
    "hot-100": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 44
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 18
+    "last": "2026-09-19",
+    "peak": 14
    },
    "r-b-hip-hop-songs": {
     "first": "2026-07-11",
@@ -84606,13 +84649,13 @@
    },
    "rap-song": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 7
    },
    "rhythmic-40": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 30
+    "last": "2026-09-19",
+    "peak": 29
    }
   },
   "title": "Ghetto Love Story"
@@ -85795,7 +85838,7 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 35
    }
   },
@@ -85885,12 +85928,12 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 19
    },
    "adult-pop-songs": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 15
    }
   },
@@ -89591,7 +89634,7 @@
    },
    "hot-100": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 41
    }
   },
@@ -101402,7 +101445,7 @@
   "charts": {
    "triple-a": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 38
    }
   },
@@ -102375,7 +102418,7 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 21
    },
    "pop-songs": {
@@ -104793,7 +104836,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -105999,7 +106042,7 @@
    },
    "triple-a": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    }
   },
@@ -108795,23 +108838,23 @@
    },
    "hot-100": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 84
+    "last": "2026-09-19",
+    "peak": 56
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 39
+    "last": "2026-09-19",
+    "peak": 22
    },
    "rap-song": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
-    "peak": 9
+    "last": "2026-09-19",
+    "peak": 7
    },
    "rhythmic-40": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
-    "peak": 36
+    "last": "2026-09-19",
+    "peak": 25
    }
   },
   "title": "WTF GOIN"
@@ -111010,12 +111053,12 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 20
    },
    "adult-pop-songs": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 12
    },
    "hot-100": {
@@ -111752,7 +111795,7 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-08-01",
-    "last": "2026-08-29",
+    "last": "2026-09-19",
     "peak": 26
    }
   },
@@ -115643,12 +115686,12 @@
   "charts": {
    "hot-100": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 26
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 3
    },
    "r-b-hip-hop-songs": {
@@ -115658,8 +115701,8 @@
    },
    "rhythmic-40": {
     "first": "2026-08-08",
-    "last": "2026-09-12",
-    "peak": 5
+    "last": "2026-09-19",
+    "peak": 4
    }
   },
   "title": "Morning Dew (Donk)"
@@ -120879,7 +120922,7 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 36
    }
   },
@@ -129629,8 +129672,8 @@
   "charts": {
    "triple-a": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
-    "peak": 15
+    "last": "2026-09-19",
+    "peak": 14
    }
   },
   "title": "Burn The Other End"
@@ -130748,13 +130791,13 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-04-04",
-    "last": "2026-09-12",
-    "peak": 9
+    "last": "2026-09-19",
+    "peak": 7
    },
    "rock-airplay": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
-    "peak": 24
+    "last": "2026-09-19",
+    "peak": 22
    }
   },
   "title": "Always Let You Down"
@@ -135429,8 +135472,8 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
-    "peak": 22
+    "last": "2026-09-19",
+    "peak": 20
    },
    "rock-airplay": {
     "first": "2026-08-29",
@@ -135716,6 +135759,17 @@
    }
   },
   "title": "Crimson Skies"
+ },
+ "black veil brides|cut": {
+  "artist": "Black Veil Brides",
+  "charts": {
+   "hot-mainstream-rock-tracks": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 33
+   }
+  },
+  "title": "Cut"
  },
  "black veil brides|fallen angels": {
   "artist": "Black Veil Brides",
@@ -138582,8 +138636,8 @@
    },
    "hot-100": {
     "first": "2026-08-29",
-    "last": "2026-09-05",
-    "peak": 97
+    "last": "2026-09-19",
+    "peak": 84
    }
   },
   "title": "Bet On That"
@@ -140631,8 +140685,8 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
-    "peak": 4
+    "last": "2026-09-19",
+    "peak": 2
    }
   },
   "title": "Lovers On The Dancefloor"
@@ -159037,7 +159091,7 @@
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-04-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 5
    },
    "r-b-hip-hop-songs": {
@@ -163983,7 +164037,7 @@
   "charts": {
    "triple-a": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 13
    }
   },
@@ -164053,7 +164107,7 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 9
    }
   },
@@ -166612,12 +166666,12 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "rock-airplay": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 4
    }
   },
@@ -171884,9 +171938,14 @@
  "brigitte calls me baby|i can take the sun out of the sky": {
   "artist": "Brigitte Calls Me Baby",
   "charts": {
+   "rock-airplay": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 49
+   },
    "triple-a": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 15
    }
   },
@@ -174317,7 +174376,7 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 24
    }
   },
@@ -176419,8 +176478,8 @@
   "charts": {
    "rhythmic-40": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
-    "peak": 39
+    "last": "2026-09-19",
+    "peak": 33
    }
   },
   "title": "Jump Jump"
@@ -179552,17 +179611,17 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-01-24",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    },
    "adult-pop-songs": {
     "first": "2026-01-24",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "hot-100": {
     "first": "2026-01-24",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "hot-dance-airplay": {
@@ -179696,7 +179755,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-05-23",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 3
    }
   },
@@ -179791,17 +179850,17 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-03-28",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 8
    },
    "adult-pop-songs": {
     "first": "2026-03-14",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    },
    "hot-100": {
     "first": "2026-03-14",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 4
    },
    "hot-r-and-b-hip-hop-airplay": {
@@ -182494,7 +182553,7 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-04-04",
-    "last": "2026-08-01",
+    "last": "2026-09-19",
     "peak": 16
    },
    "adult-pop-songs": {
@@ -185229,8 +185288,8 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
-    "peak": 5
+    "last": "2026-09-19",
+    "peak": 4
    },
    "hot-rock-songs": {
     "first": "2026-01-10",
@@ -185239,7 +185298,7 @@
    },
    "rock-airplay": {
     "first": "2026-01-31",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 21
    },
    "triple-a": {
@@ -186052,6 +186111,17 @@
    }
   },
   "title": "I Need U"
+ },
+ "bunt|i will find you": {
+  "artist": "BUNT.",
+  "charts": {
+   "hot-dance-airplay": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 39
+   }
+  },
+  "title": "I Will Find You"
  },
  "bunt|love": {
   "artist": "BUNT. & johan lenox",
@@ -189937,23 +190007,23 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
-    "peak": 2
+    "last": "2026-09-19",
+    "peak": 1
    },
    "hot-mainstream-rock-tracks": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 14
    },
    "rock-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "triple-a": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
-    "peak": 2
+    "last": "2026-09-19",
+    "peak": 1
    }
   },
   "title": "Beaches In Tennessee"
@@ -191650,7 +191720,7 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 33
    }
   },
@@ -193952,7 +194022,7 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 22
    },
    "alternative-airplay": {
@@ -193972,7 +194042,7 @@
    },
    "hot-100": {
     "first": "2026-06-20",
-    "last": "2026-08-01",
+    "last": "2026-09-19",
     "peak": 94
    },
    "hot-rock-songs": {
@@ -194860,6 +194930,17 @@
    }
   },
   "title": "De Adentro Pa Afuera"
+ },
+ "camilo|el arbol": {
+  "artist": "Camilo",
+  "charts": {
+   "latin-pop-airplay": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 20
+   }
+  },
+  "title": "El Arbol"
  },
  "camilo|favorito": {
   "artist": "Camilo",
@@ -197478,23 +197559,23 @@
   "charts": {
    "hot-100": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 25
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
-    "peak": 12
+    "last": "2026-09-19",
+    "peak": 10
    },
    "rap-song": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 3
    },
    "rhythmic-40": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
-    "peak": 9
+    "last": "2026-09-19",
+    "peak": 3
    }
   },
   "title": "AH HA"
@@ -198716,8 +198797,8 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-06-06",
-    "last": "2026-09-12",
-    "peak": 12
+    "last": "2026-09-19",
+    "peak": 7
    }
   },
   "title": "Desde Que Te Tengo"
@@ -213503,8 +213584,8 @@
   "charts": {
    "rhythmic-40": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 35
+    "last": "2026-09-19",
+    "peak": 34
    }
   },
   "title": "Boogie's In My Soul"
@@ -216654,8 +216735,8 @@
   "charts": {
    "triple-a": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 38
+    "last": "2026-09-19",
+    "peak": 37
    }
   },
   "title": "The Hallelujah Trail"
@@ -218111,7 +218192,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 22
    }
   },
@@ -230511,7 +230592,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 17
    }
   },
@@ -231692,7 +231773,7 @@
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 12
    },
    "r-b-hip-hop-songs": {
@@ -232073,7 +232154,7 @@
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2025-08-16",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "pop-songs": {
@@ -232395,7 +232476,7 @@
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-05-02",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 7
    },
    "r-b-hip-hop-songs": {
@@ -237008,6 +237089,17 @@
   },
   "title": "Me Lo Gozo"
  },
+ "christian alicea|tropikete": {
+  "artist": "Christian Alicea",
+  "charts": {
+   "latin-tropical-airplay": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 21
+   }
+  },
+  "title": "TROPiKETE"
+ },
  "christian alicea|voy a beber": {
   "artist": "Christian Alicea X Eliot El Mago D Oz",
   "charts": {
@@ -237329,7 +237421,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 17
    }
   },
@@ -250949,8 +251041,8 @@
    },
    "hot-100": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
-    "peak": 43
+    "last": "2026-09-19",
+    "peak": 33
    }
   },
   "title": "Take Me Back (Leave Me There)"
@@ -256003,8 +256095,13 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
-    "peak": 20
+    "last": "2026-09-19",
+    "peak": 3
+   },
+   "rap-song": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 17
    }
   },
   "title": "onsra"
@@ -263267,8 +263364,8 @@
    },
    "hot-100": {
     "first": "2026-05-02",
-    "last": "2026-09-12",
-    "peak": 78
+    "last": "2026-09-19",
+    "peak": 66
    }
   },
   "title": "Empty Words"
@@ -264172,7 +264269,7 @@
    },
    "hot-dance-pop-songs": {
     "first": "2026-05-16",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 8
    }
   },
@@ -277097,7 +277194,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 22
    }
   },
@@ -281525,8 +281622,8 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
-    "peak": 15
+    "last": "2026-09-19",
+    "peak": 14
    }
   },
   "title": "Tesoro Perdido"
@@ -281536,7 +281633,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 16
    }
   },
@@ -285519,7 +285616,7 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 23
    }
   },
@@ -291782,7 +291879,7 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 42
    }
   },
@@ -293115,7 +293212,7 @@
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-04-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 3
    },
    "r-b-hip-hop-songs": {
@@ -303181,7 +303278,7 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 27
    }
   },
@@ -305053,12 +305150,12 @@
   "charts": {
    "rock-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
-    "peak": 36
+    "last": "2026-09-19",
+    "peak": 33
    },
    "triple-a": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 5
    }
   },
@@ -315906,8 +316003,8 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
-    "peak": 25
+    "last": "2026-09-19",
+    "peak": 24
    }
   },
   "title": "When The Love Is Gone"
@@ -317349,12 +317446,12 @@
   "charts": {
    "rock-airplay": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
-    "peak": 43
+    "last": "2026-09-19",
+    "peak": 37
    },
    "triple-a": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 12
    }
   },
@@ -317886,12 +317983,12 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-04-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "hot-100": {
     "first": "2026-04-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 33
    },
    "hot-rock-songs": {
@@ -317901,7 +317998,7 @@
    },
    "rock-airplay": {
     "first": "2026-04-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 5
    }
   },
@@ -326442,6 +326539,17 @@
   },
   "title": "Boy Oh Boy"
  },
+ "diplo presents cameron whitcomb|would u still love me": {
+  "artist": "Diplo Presents: Cameron Whitcomb",
+  "charts": {
+   "hot-dance-airplay": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 40
+   }
+  },
+  "title": "Would U Still Love Me"
+ },
  "diplo presents thomas wesley|heartless": {
   "artist": "Diplo Presents Thomas Wesley Featuring Morgan Wallen",
   "charts": {
@@ -331028,8 +331136,8 @@
   "charts": {
    "rhythmic-40": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
-    "peak": 23
+    "last": "2026-09-19",
+    "peak": 22
    }
   },
   "title": "Mi Chico"
@@ -337487,13 +337595,18 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 13
+    "last": "2026-09-19",
+    "peak": 12
    },
    "rap-song": {
     "first": "2026-08-29",
-    "last": "2026-09-05",
+    "last": "2026-09-19",
     "peak": 20
+   },
+   "rhythmic-40": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 39
    }
   },
   "title": "Pink Blush"
@@ -337962,7 +338075,7 @@
    },
    "hot-100": {
     "first": "1974-01-26",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 16
    }
   },
@@ -339197,12 +339310,12 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-03-21",
-    "last": "2026-09-12",
-    "peak": 13
+    "last": "2026-09-19",
+    "peak": 12
    },
    "alternative-airplay": {
     "first": "2026-04-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 7
    },
    "bubbling-under-hot-100-singles": {
@@ -339212,7 +339325,7 @@
    },
    "hot-100": {
     "first": "2026-02-21",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 16
    },
    "hot-rock-songs": {
@@ -339227,7 +339340,7 @@
    },
    "rock-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 11
    }
   },
@@ -352010,7 +352123,7 @@
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 9
    },
    "r-b-hip-hop-songs": {
@@ -352020,12 +352133,12 @@
    },
    "rap-song": {
     "first": "2026-05-30",
-    "last": "2026-09-05",
+    "last": "2026-09-19",
     "peak": 6
    },
    "rhythmic-40": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -355029,12 +355142,12 @@
   "charts": {
    "hot-100": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-06-06",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 5
    },
    "r-b-hip-hop-songs": {
@@ -355044,12 +355157,12 @@
    },
    "rap-song": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "rhythmic-40": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -355915,7 +356028,7 @@
    },
    "rap-song": {
     "first": "2026-05-30",
-    "last": "2026-09-05",
+    "last": "2026-09-19",
     "peak": 5
    }
   },
@@ -356880,7 +356993,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-06-06",
-    "last": "2026-09-05",
+    "last": "2026-09-19",
     "peak": 6
    },
    "hot-r-and-b-hip-hop-airplay": {
@@ -356895,7 +357008,7 @@
    },
    "rap-song": {
     "first": "2026-05-30",
-    "last": "2026-09-05",
+    "last": "2026-09-19",
     "peak": 2
    }
   },
@@ -357210,12 +357323,12 @@
   "charts": {
    "hot-100": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 4
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 6
    },
    "r-b-hip-hop-songs": {
@@ -357225,12 +357338,12 @@
    },
    "rap-song": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    },
    "rhythmic-40": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -358594,7 +358707,7 @@
    },
    "rap-song": {
     "first": "2026-05-30",
-    "last": "2026-09-05",
+    "last": "2026-09-19",
     "peak": 3
    }
   },
@@ -361902,7 +362015,7 @@
    },
    "hot-dance-pop-songs": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 5
    },
    "pop-songs": {
@@ -371899,7 +372012,7 @@
   "charts": {
    "triple-a": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 27
    }
   },
@@ -376467,13 +376580,13 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 13
    },
    "rock-airplay": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
-    "peak": 48
+    "last": "2026-09-19",
+    "peak": 47
    }
   },
   "title": "Love To Go"
@@ -381096,7 +381209,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 17
    }
   },
@@ -381424,8 +381537,8 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
-    "peak": 26
+    "last": "2026-09-19",
+    "peak": 25
    }
   },
   "title": "Let The Good Times Roll"
@@ -382063,7 +382176,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 21
    }
   },
@@ -382241,8 +382354,8 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-05-23",
-    "last": "2026-09-12",
-    "peak": 3
+    "last": "2026-09-19",
+    "peak": 1
    }
   },
   "title": "Washed"
@@ -382254,6 +382367,11 @@
     "first": "2026-01-17",
     "last": "2026-09-12",
     "peak": 1
+   },
+   "hot-100": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 91
    }
   },
   "title": "God I'm Just Grateful"
@@ -383089,6 +383207,11 @@
     "last": "2026-09-05",
     "peak": 22
    },
+   "adult-pop-songs": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 40
+   },
    "country-songs": {
     "first": "2026-03-07",
     "last": "2026-07-25",
@@ -383096,7 +383219,7 @@
    },
    "hot-100": {
     "first": "2026-02-28",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    }
   },
@@ -383155,12 +383278,12 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-02-28",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 9
    },
    "adult-pop-songs": {
     "first": "2026-01-31",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 4
    },
    "country-songs": {
@@ -383170,7 +383293,7 @@
    },
    "hot-100": {
     "first": "2025-11-01",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "pop-songs": {
@@ -383228,7 +383351,7 @@
    },
    "hot-100": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 4
    }
   },
@@ -383282,7 +383405,7 @@
    },
    "hot-100": {
     "first": "2026-04-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 21
    }
   },
@@ -383595,7 +383718,7 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 46
    }
   },
@@ -392743,8 +392866,8 @@
    },
    "hot-100": {
     "first": "2025-11-22",
-    "last": "2026-02-07",
-    "peak": 90
+    "last": "2026-09-19",
+    "peak": 88
    }
   },
   "title": "Amor"
@@ -394209,7 +394332,7 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2025-04-19",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 3
    },
    "hot-rock-songs": {
@@ -398546,8 +398669,8 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
-    "peak": 36
+    "last": "2026-09-19",
+    "peak": 32
    }
   },
   "title": "Cry In Front Of You"
@@ -406196,8 +406319,8 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
-    "peak": 34
+    "last": "2026-09-19",
+    "peak": 28
    }
   },
   "title": "Tell Me When You've Had Enough"
@@ -406324,7 +406447,7 @@
    },
    "rock-airplay": {
     "first": "2026-04-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -410503,7 +410626,7 @@
    },
    "hot-100": {
     "first": "2026-05-16",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 51
    },
    "r-b-hip-hop-songs": {
@@ -415860,6 +415983,17 @@
   },
   "title": "What A Day"
  },
+ "faouzia|unethical": {
+  "artist": "Faouzia",
+  "charts": {
+   "bubbling-under-hot-100-singles": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 25
+   }
+  },
+  "title": "UNETHICAL"
+ },
  "far corporation|stairway to heaven": {
   "artist": "Far Corporation",
   "charts": {
@@ -418112,7 +418246,7 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 37
    }
   },
@@ -419565,12 +419699,12 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 31
    },
    "rhythmic-40": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 19
    }
   },
@@ -420554,12 +420688,12 @@
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 30
    },
    "rhythmic-40": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 5
    }
   },
@@ -423615,7 +423749,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 25
    }
   },
@@ -425299,7 +425433,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 7
    }
   },
@@ -426056,12 +426190,12 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "rock-airplay": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 11
    }
   },
@@ -426340,8 +426474,8 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
-    "peak": 28
+    "last": "2026-09-19",
+    "peak": 22
    }
   },
   "title": "Nails In The Coffin"
@@ -433559,12 +433693,12 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    },
    "latin-tropical-airplay": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 5
    }
   },
@@ -433897,18 +434031,18 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 32
+    "last": "2026-09-19",
+    "peak": 26
    },
    "rock-airplay": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 27
+    "last": "2026-09-19",
+    "peak": 23
    },
    "triple-a": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 17
+    "last": "2026-09-19",
+    "peak": 13
    }
   },
   "title": "Marianne"
@@ -435203,22 +435337,22 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 12
    },
    "hot-mainstream-rock-tracks": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
-    "peak": 10
+    "last": "2026-09-19",
+    "peak": 9
    },
    "rock-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
-    "peak": 9
+    "last": "2026-09-19",
+    "peak": 8
    },
    "triple-a": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 29
    }
   },
@@ -436478,8 +436612,8 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-09-05",
-    "last": "2026-09-05",
-    "peak": 25
+    "last": "2026-09-19",
+    "peak": 22
    }
   },
   "title": "OKAY!"
@@ -439091,8 +439225,8 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-05-23",
-    "last": "2026-09-12",
-    "peak": 19
+    "last": "2026-09-19",
+    "peak": 17
    }
   },
   "title": "I Know Evil"
@@ -448087,7 +448221,7 @@
    },
    "rap-song": {
     "first": "2026-03-28",
-    "last": "2026-09-05",
+    "last": "2026-09-19",
     "peak": 10
    },
    "rhythmic-40": {
@@ -449196,13 +449330,13 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
-    "peak": 6
+    "last": "2026-09-19",
+    "peak": 5
    },
    "rock-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 30
+    "last": "2026-09-19",
+    "peak": 24
    }
   },
   "title": "Die For You"
@@ -450139,6 +450273,17 @@
    }
   },
   "title": "Como Tu"
+ },
+ "fuerza regida|coqueta": {
+  "artist": "Fuerza Regida & Grupo Frontera",
+  "charts": {
+   "bubbling-under-hot-100-singles": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 23
+   }
+  },
+  "title": "Coqueta"
  },
  "fuerza regida|crazyz": {
   "artist": "Fuerza Regida",
@@ -452484,7 +452629,7 @@
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 12
    },
    "r-b-hip-hop-songs": {
@@ -452494,12 +452639,12 @@
    },
    "rap-song": {
     "first": "2026-07-25",
-    "last": "2026-09-05",
+    "last": "2026-09-19",
     "peak": 3
    },
    "rhythmic-40": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 11
    }
   },
@@ -453667,6 +453812,11 @@
     "first": "2026-07-25",
     "last": "2026-08-01",
     "peak": 29
+   },
+   "hot-r-and-b-hip-hop-airplay": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 36
    },
    "r-b-hip-hop-songs": {
     "first": "2026-07-25",
@@ -476974,7 +477124,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 22
    }
   },
@@ -477156,7 +477306,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 32
    }
   },
@@ -477329,7 +477479,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 24
    }
   },
@@ -480758,7 +480908,7 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 22
    }
   },
@@ -492746,7 +492896,7 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 30
    }
   },
@@ -493757,13 +493907,13 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 35
    },
    "triple-a": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 23
+    "last": "2026-09-19",
+    "peak": 22
    }
   },
   "title": "Good Times // End Times"
@@ -495534,7 +495684,7 @@
    },
    "triple-a": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 8
    }
   },
@@ -495773,12 +495923,12 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 11
    },
    "hot-100": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 26
    },
    "pop-songs": {
@@ -498133,7 +498283,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-05-02",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 10
    }
   },
@@ -500073,13 +500223,13 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 12
    },
    "rock-airplay": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
-    "peak": 33
+    "last": "2026-09-19",
+    "peak": 32
    }
   },
   "title": "Play Your Games"
@@ -501659,6 +501809,17 @@
    }
   },
   "title": "El Cumbion"
+ },
+ "grupo canaveral de humberto padon|regresa mi vida": {
+  "artist": "Grupo Canaveral de Humberto Padon & Angela Leiva",
+  "charts": {
+   "latin-tropical-airplay": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 10
+   }
+  },
+  "title": "Regresa Mi Vida"
  },
  "grupo climax|el za za za": {
   "artist": "Grupo Climax",
@@ -503612,8 +503773,8 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 15
+    "last": "2026-09-19",
+    "peak": 10
    }
   },
   "title": "World Away"
@@ -503720,7 +503881,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 15
    }
   },
@@ -515971,7 +516132,7 @@
    },
    "hot-100": {
     "first": "2026-02-14",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 31
    }
   },
@@ -517019,7 +517180,7 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-04-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 16
    },
    "adult-pop-songs": {
@@ -517065,7 +517226,7 @@
    },
    "hot-dance-pop-songs": {
     "first": "2026-02-07",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "pop-songs": {
@@ -525986,8 +526147,8 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
-    "peak": 19
+    "last": "2026-09-19",
+    "peak": 16
    },
    "bubbling-under-hot-100-singles": {
     "first": "2025-11-22",
@@ -528450,7 +528611,7 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 34
    },
    "bubbling-under-hot-100-singles": {
@@ -531791,7 +531952,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 19
    }
   },
@@ -532648,8 +532809,8 @@
    },
    "hot-100": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 93
+    "last": "2026-09-19",
+    "peak": 80
    }
   },
   "title": "Painted You Pretty"
@@ -533551,7 +533712,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -534728,7 +534889,7 @@
   "charts": {
    "adult-contemporary": {
     "first": "2025-10-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    },
    "adult-pop-songs": {
@@ -535102,7 +535263,7 @@
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 26
    }
   },
@@ -536027,8 +536188,8 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
-    "peak": 37
+    "last": "2026-09-19",
+    "peak": 33
    }
   },
   "title": "Way Too Self Aware"
@@ -542176,7 +542337,7 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 38
    }
   },
@@ -543120,6 +543281,17 @@
   },
   "title": "Headlights"
  },
+ "in color|high": {
+  "artist": "In Color",
+  "charts": {
+   "alternative-airplay": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 38
+   }
+  },
+  "title": "High"
+ },
  "in crowd|questions and answers": {
   "artist": "The In Crowd",
   "charts": {
@@ -543303,6 +543475,17 @@
    }
   },
   "title": "Blood"
+ },
+ "in this moment|i want to believe": {
+  "artist": "In This Moment Featuring Dayseeker",
+  "charts": {
+   "hot-mainstream-rock-tracks": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 32
+   }
+  },
+  "title": "I Want To Believe"
  },
  "in this moment|oh lord": {
   "artist": "In This Moment",
@@ -545384,7 +545567,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-08-08",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 19
    }
   },
@@ -547382,12 +547565,12 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 27
    },
    "rock-airplay": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 44
    }
   },
@@ -550510,8 +550693,8 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
-    "peak": 21
+    "last": "2026-09-19",
+    "peak": 16
    },
    "r-b-hip-hop-songs": {
     "first": "2026-05-16",
@@ -550525,7 +550708,7 @@
    },
    "rhythmic-40": {
     "first": "2026-05-16",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 9
    }
   },
@@ -554737,7 +554920,7 @@
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-02-21",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 19
    },
    "r-b-hip-hop-songs": {
@@ -554752,8 +554935,8 @@
    },
    "rhythmic-40": {
     "first": "2026-06-06",
-    "last": "2026-09-12",
-    "peak": 2
+    "last": "2026-09-19",
+    "peak": 1
    }
   },
   "title": "Legacy"
@@ -561223,12 +561406,12 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
-    "peak": 39
+    "last": "2026-09-19",
+    "peak": 37
    },
    "triple-a": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 28
    }
   },
@@ -567268,8 +567451,8 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
-    "peak": 45
+    "last": "2026-09-19",
+    "peak": 40
    }
   },
   "title": "My Boo"
@@ -567279,7 +567462,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 7
    }
   },
@@ -570206,8 +570389,8 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
-    "peak": 2
+    "last": "2026-09-19",
+    "peak": 1
    }
   },
   "title": "Seratonin"
@@ -581144,8 +581327,8 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-04-25",
-    "last": "2026-09-12",
-    "peak": 16
+    "last": "2026-09-19",
+    "peak": 15
    }
   },
   "title": "De Lejitos"
@@ -587806,8 +587989,8 @@
    },
    "hot-100": {
     "first": "2026-08-08",
-    "last": "2026-09-05",
-    "peak": 94
+    "last": "2026-09-19",
+    "peak": 82
    }
   },
   "title": "Hands Up"
@@ -595380,7 +595563,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-05-16",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 13
    }
   },
@@ -597639,12 +597822,12 @@
   "charts": {
    "rock-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 31
    },
    "triple-a": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 3
    }
   },
@@ -600841,8 +601024,8 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
-    "peak": 9
+    "last": "2026-09-19",
+    "peak": 4
    }
   },
   "title": "Silver Lining"
@@ -601549,8 +601732,8 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
-    "peak": 11
+    "last": "2026-09-19",
+    "peak": 9
    }
   },
   "title": "Car Crash"
@@ -601716,8 +601899,8 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
-    "peak": 40
+    "last": "2026-09-19",
+    "peak": 37
    }
   },
   "title": "Don't Play"
@@ -603314,7 +603497,7 @@
   "charts": {
    "triple-a": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 25
    }
   },
@@ -609391,6 +609574,17 @@
    }
   },
   "title": "The Middle Of The Dancefloor"
+ },
+ "jisoo|click": {
+  "artist": "JISOO",
+  "charts": {
+   "hot-dance-pop-songs": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 15
+   }
+  },
+  "title": "CLICK"
  },
  "jisoo|eyes closed": {
   "artist": "JISOO & ZAYN",
@@ -624795,8 +624989,8 @@
    },
    "hot-100": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
-    "peak": 91
+    "last": "2026-09-19",
+    "peak": 74
    }
   },
   "title": "Kid Myself"
@@ -627098,8 +627292,8 @@
   "charts": {
    "triple-a": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
-    "peak": 34
+    "last": "2026-09-19",
+    "peak": 33
    }
   },
   "title": "Don't Let Go"
@@ -629777,8 +629971,8 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
-    "peak": 35
+    "last": "2026-09-19",
+    "peak": 31
    }
   },
   "title": "A Dance, A Kiss"
@@ -644124,7 +644318,7 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-01-31",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 4
    },
    "hot-rock-songs": {
@@ -645249,12 +645443,12 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-05-16",
-    "last": "2026-09-12",
-    "peak": 15
+    "last": "2026-09-19",
+    "peak": 11
    },
    "rock-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 40
    }
   },
@@ -648168,7 +648362,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 9
    }
   },
@@ -652513,8 +652707,8 @@
   "charts": {
    "triple-a": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
-    "peak": 30
+    "last": "2026-09-19",
+    "peak": 28
    }
   },
   "title": "Get Away From Me (I Think I'll Love You Soon)"
@@ -652614,7 +652808,7 @@
   "charts": {
    "alternative-airplay": {
     "first": "2025-06-28",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    },
    "bubbling-under-hot-100-singles": {
@@ -652624,7 +652818,7 @@
    },
    "hot-100": {
     "first": "2026-03-21",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 57
    },
    "hot-rock-songs": {
@@ -652634,7 +652828,7 @@
    },
    "rock-airplay": {
     "first": "2026-04-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 3
    }
   },
@@ -652923,7 +653117,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-05-16",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 8
    }
   },
@@ -657443,7 +657637,7 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 32
    },
    "hot-100": {
@@ -657458,7 +657652,7 @@
    },
    "rhythmic-40": {
     "first": "2026-05-16",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 3
    }
   },
@@ -659782,7 +659976,7 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 20
    }
   },
@@ -662201,12 +662395,12 @@
    },
    "hot-100": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 39
    },
    "triple-a": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 25
    }
   },
@@ -663470,8 +663664,8 @@
    },
    "hot-100": {
     "first": "2026-07-11",
-    "last": "2026-09-05",
-    "peak": 90
+    "last": "2026-09-19",
+    "peak": 85
    }
   },
   "title": "No Need For Leavin'"
@@ -663705,6 +663899,17 @@
    }
   },
   "title": "Body Talk"
+ },
+ "kane brown|boots": {
+  "artist": "Kane Brown Featuring Shania Twain",
+  "charts": {
+   "bubbling-under-hot-100-singles": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 9
+   }
+  },
+  "title": "Boots"
  },
  "kane brown|bury me in georgia": {
   "artist": "Kane Brown",
@@ -664761,7 +664966,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-05-02",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 10
    }
   },
@@ -664820,6 +665025,17 @@
    }
   },
   "title": "DPM (De Pxta Madre)"
+ },
+ "kany garcia|el sombrero y la camisa": {
+  "artist": "Kany Garcia x Carin Leon",
+  "charts": {
+   "latin-pop-airplay": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 21
+   }
+  },
+  "title": "El Sombrero y La Camisa"
  },
  "kany garcia|en esta boca": {
   "artist": "Kany Garcia & Young Miko",
@@ -666203,8 +666419,8 @@
    },
    "rap-song": {
     "first": "2008-06-07",
-    "last": "2008-07-19",
-    "peak": 16
+    "last": "2026-09-19",
+    "peak": 9
    },
    "rhythmic-40": {
     "first": "2008-06-07",
@@ -668970,7 +669186,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 44
    }
   },
@@ -669051,8 +669267,13 @@
   "charts": {
    "hot-100": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 16
+    "last": "2026-09-19",
+    "peak": 10
+   },
+   "rhythmic-40": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 36
    }
   },
   "title": "BbY WOW"
@@ -669238,7 +669459,7 @@
    },
    "latin-pop-airplay": {
     "first": "2026-05-23",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 10
    }
   },
@@ -669413,7 +669634,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-08-08",
-    "last": "2026-09-05",
+    "last": "2026-09-19",
     "peak": 58
    }
   },
@@ -669684,18 +669905,18 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 27
+    "last": "2026-09-19",
+    "peak": 24
    },
    "hot-100": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 41
    },
    "rhythmic-40": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
-    "peak": 26
+    "last": "2026-09-19",
+    "peak": 24
    }
   },
   "title": "Still"
@@ -670516,7 +670737,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -672783,12 +673004,12 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
-    "peak": 36
+    "last": "2026-09-19",
+    "peak": 35
    },
    "hot-100": {
     "first": "2026-08-08",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 24
    }
   },
@@ -672863,7 +673084,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 31
    }
   },
@@ -672901,7 +673122,7 @@
    },
    "hot-dance-pop-songs": {
     "first": "2026-04-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    }
   },
@@ -675689,7 +675910,7 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-06-06",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 11
    },
    "adult-pop-songs": {
@@ -675709,7 +675930,7 @@
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2025-07-26",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "pop-songs": {
@@ -675724,7 +675945,7 @@
    },
    "rhythmic-40": {
     "first": "2025-08-02",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -675869,7 +676090,7 @@
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 14
    },
    "r-b-hip-hop-songs": {
@@ -675879,7 +676100,7 @@
    },
    "rhythmic-40": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    }
   },
@@ -681840,8 +682061,8 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
-    "peak": 10
+    "last": "2026-09-19",
+    "peak": 9
    }
   },
   "title": "Tu Favorito"
@@ -684366,8 +684587,8 @@
    },
    "hot-100": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
-    "peak": 61
+    "last": "2026-09-19",
+    "peak": 53
    }
   },
   "title": "Carry On"
@@ -691089,8 +691310,8 @@
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 37
+    "last": "2026-09-19",
+    "peak": 28
    }
   },
   "title": "Face Down"
@@ -699104,7 +699325,7 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 33
    }
   },
@@ -704897,7 +705118,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 19
    }
   },
@@ -718539,7 +718760,7 @@
    },
    "hot-100": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 48
    }
   },
@@ -722420,7 +722641,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 4
    }
   },
@@ -722626,6 +722847,17 @@
    }
   },
   "title": "Descarga"
+ },
+ "latin mafia|te estoy correteando": {
+  "artist": "LATIN MAFIA & Fred again..",
+  "charts": {
+   "bubbling-under-hot-100-singles": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 16
+   }
+  },
+  "title": "Te Estoy Correteando"
  },
  "latin project|lei lo lai": {
   "artist": "The Latin Project",
@@ -723092,7 +723324,7 @@
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-05-23",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 15
    },
    "r-b-hip-hop-songs": {
@@ -723107,7 +723339,7 @@
    },
    "rhythmic-40": {
     "first": "2026-05-23",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 4
    }
   },
@@ -723212,13 +723444,13 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-06-13",
-    "last": "2026-09-05",
+    "last": "2026-09-19",
     "peak": 8
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 48
+    "last": "2026-09-19",
+    "peak": 43
    },
    "r-b-hip-hop-songs": {
     "first": "2026-06-13",
@@ -723227,13 +723459,13 @@
    },
    "rap-song": {
     "first": "2026-08-15",
-    "last": "2026-09-05",
+    "last": "2026-09-19",
     "peak": 22
    },
    "rhythmic-40": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 21
+    "last": "2026-09-19",
+    "peak": 18
    }
   },
   "title": "Okayyy"
@@ -724733,8 +724965,8 @@
    },
    "hot-100": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 92
+    "last": "2026-09-19",
+    "peak": 79
    }
   },
   "title": "All My Exes"
@@ -727724,6 +727956,17 @@
    }
   },
   "title": "Little Arrows"
+ },
+ "leap|exit signs": {
+  "artist": "LEAP",
+  "charts": {
+   "alternative-airplay": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 40
+   }
+  },
+  "title": "Exit Signs"
  },
  "leaves|hey joe": {
   "artist": "The Leaves",
@@ -730893,7 +731136,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 18
    }
   },
@@ -731948,7 +732191,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 4
    }
   },
@@ -732757,6 +733000,17 @@
    }
   },
   "title": "Sweeter"
+ },
+ "leon bridges|talk it over": {
+  "artist": "Leon Bridges",
+  "charts": {
+   "triple-a": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 24
+   }
+  },
+  "title": "Talk It Over"
  },
  "leon everette|danger list": {
   "artist": "Leon Everette",
@@ -734675,7 +734929,7 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 21
    }
   },
@@ -738077,23 +738331,23 @@
   "charts": {
    "hot-100": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 18
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
-    "peak": 10
+    "last": "2026-09-19",
+    "peak": 9
    },
    "rap-song": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    },
    "rhythmic-40": {
     "first": "2026-08-08",
-    "last": "2026-09-12",
-    "peak": 13
+    "last": "2026-09-19",
+    "peak": 9
    }
   },
   "title": "Dead Fresh"
@@ -747011,8 +747265,8 @@
    },
    "rhythmic-40": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 25
+    "last": "2026-09-19",
+    "peak": 23
    }
   },
   "title": "Poured"
@@ -752832,7 +753086,7 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 31
    }
   },
@@ -757749,6 +758003,17 @@
    }
   },
   "title": "Rockstar"
+ },
+ "lisa|sawadika": {
+  "artist": "LISA",
+  "charts": {
+   "hot-100": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 69
+   }
+  },
+  "title": "SaWaDiKa"
  },
  "lisette melendez|a day in my life": {
   "artist": "Lisette Melendez",
@@ -772674,7 +772939,7 @@
    },
    "hot-100": {
     "first": "2026-08-29",
-    "last": "2026-08-29",
+    "last": "2026-09-19",
     "peak": 99
    }
   },
@@ -786022,7 +786287,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 8
    }
   },
@@ -788551,6 +788816,11 @@
     "first": "2026-05-30",
     "last": "2026-07-25",
     "peak": 41
+   },
+   "hot-100": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 81
    }
   },
   "title": "Country And She Knows It"
@@ -789594,7 +789864,7 @@
    },
    "hot-100": {
     "first": "2026-02-28",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 12
    }
   },
@@ -790260,8 +790530,8 @@
    },
    "hot-100": {
     "first": "2026-04-04",
-    "last": "2026-09-12",
-    "peak": 46
+    "last": "2026-09-19",
+    "peak": 40
    }
   },
   "title": "Rethink Some Things"
@@ -797691,7 +797961,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-05-23",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 25
    },
    "r-b-hip-hop-songs": {
@@ -797701,13 +797971,13 @@
    },
    "rap-song": {
     "first": "2026-04-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 3
    },
    "rhythmic-40": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
-    "peak": 16
+    "last": "2026-09-19",
+    "peak": 14
    }
   },
   "title": "Cinderella"
@@ -799352,8 +799622,8 @@
    },
    "hot-100": {
     "first": "2026-08-22",
-    "last": "2026-09-05",
-    "peak": 86
+    "last": "2026-09-19",
+    "peak": 71
    }
   },
   "title": "String By"
@@ -801619,8 +801889,8 @@
    },
    "hot-dance-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
-    "peak": 10
+    "last": "2026-09-19",
+    "peak": 6
    },
    "hot-dance-pop-songs": {
     "first": "2026-07-18",
@@ -804011,7 +804281,7 @@
   "charts": {
    "rhythmic-40": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 38
    }
   },
@@ -806028,8 +806298,8 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
-    "peak": 21
+    "last": "2026-09-19",
+    "peak": 20
    },
    "bubbling-under-hot-100-singles": {
     "first": "2026-02-07",
@@ -806038,8 +806308,8 @@
    },
    "hot-100": {
     "first": "2026-03-14",
-    "last": "2026-09-12",
-    "peak": 20
+    "last": "2026-09-19",
+    "peak": 19
    },
    "pop-songs": {
     "first": "2026-05-30",
@@ -806109,7 +806379,7 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-03-14",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -806693,7 +806963,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-06-06",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -810502,7 +810772,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 3
    }
   },
@@ -810638,7 +810908,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 13
    }
   },
@@ -817537,7 +817807,7 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 24
    }
   },
@@ -823153,8 +823423,8 @@
    },
    "hot-100": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
-    "peak": 65
+    "last": "2026-09-19",
+    "peak": 60
    }
   },
   "title": "Another Drink"
@@ -825261,12 +825531,12 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 16
    },
    "hot-dance-airplay": {
     "first": "2026-06-06",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 9
    },
    "pop-songs": {
@@ -841119,7 +841389,7 @@
   "charts": {
    "triple-a": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 25
    }
   },
@@ -841277,8 +841547,8 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 30
+    "last": "2026-09-19",
+    "peak": 28
    }
   },
   "title": "Silence"
@@ -855123,7 +855393,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 17
    }
   },
@@ -861514,8 +861784,8 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-08-08",
-    "last": "2026-09-12",
-    "peak": 20
+    "last": "2026-09-19",
+    "peak": 19
    }
   },
   "title": "The Game Of Love"
@@ -861891,12 +862161,12 @@
   "charts": {
    "rock-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 37
    },
    "triple-a": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 6
    }
   },
@@ -866293,7 +866563,7 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 40
    }
   },
@@ -869412,6 +869682,27 @@
   },
   "title": "Zombie"
  },
+ "miley|bass persuades": {
+  "artist": "Miley",
+  "charts": {
+   "adult-pop-songs": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 27
+   },
+   "hot-100": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 35
+   },
+   "hot-dance-pop-songs": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 2
+   }
+  },
+  "title": "Bass Persuades"
+ },
  "milira|go outside in the rain": {
   "artist": "Milira",
   "charts": {
@@ -870759,7 +871050,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 9
    }
   },
@@ -875385,7 +875676,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 17
    }
   },
@@ -875540,7 +875831,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 13
    }
   },
@@ -876524,12 +876815,12 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 6
    },
    "rock-airplay": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 15
    },
    "triple-a": {
@@ -878052,7 +878343,7 @@
   "charts": {
    "triple-a": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 22
    }
   },
@@ -882373,7 +882664,7 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 30
    }
   },
@@ -882569,8 +882860,8 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
-    "peak": 36
+    "last": "2026-09-19",
+    "peak": 19
    }
   },
   "title": "Alabama 10"
@@ -882649,7 +882940,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 14
    }
   },
@@ -882671,7 +882962,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-03-21",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -883132,7 +883423,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-08-08",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    }
   },
@@ -885975,13 +886266,13 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
-    "peak": 11
+    "last": "2026-09-19",
+    "peak": 10
    },
    "rock-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 32
+    "last": "2026-09-19",
+    "peak": 30
    }
   },
   "title": "R.I.P."
@@ -889272,7 +889563,7 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-03-07",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 15
    },
    "alternative-airplay": {
@@ -889831,8 +890122,8 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 37
+    "last": "2026-09-19",
+    "peak": 33
    }
   },
   "title": "Richest"
@@ -890274,12 +890565,12 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 30
+    "last": "2026-09-19",
+    "peak": 28
    },
    "hot-mainstream-rock-tracks": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 38
    }
   },
@@ -892792,17 +893083,17 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 16
    },
    "rock-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 28
    },
    "triple-a": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 16
    }
   },
@@ -904029,13 +904320,13 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-06-06",
-    "last": "2026-09-12",
-    "peak": 18
+    "last": "2026-09-19",
+    "peak": 17
    },
    "rock-airplay": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 45
+    "last": "2026-09-19",
+    "peak": 41
    }
   },
   "title": "Private"
@@ -913117,7 +913408,7 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 20
    },
    "pop-songs": {
@@ -914787,13 +915078,13 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
-    "peak": 4
+    "last": "2026-09-19",
+    "peak": 2
    },
    "rock-airplay": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
-    "peak": 14
+    "last": "2026-09-19",
+    "peak": 9
    }
   },
   "title": "Rattle The Cage"
@@ -920427,8 +920718,8 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
-    "peak": 20
+    "last": "2026-09-19",
+    "peak": 16
    }
   },
   "title": "Happy Feels Like"
@@ -923188,12 +923479,12 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 4
    },
    "hot-100": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 9
    },
    "hot-rock-songs": {
@@ -923203,12 +923494,12 @@
    },
    "rock-airplay": {
     "first": "2026-06-06",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 4
    },
    "triple-a": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -923235,7 +923526,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 14
    },
    "hot-rock-songs": {
@@ -923443,12 +923734,12 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-08-08",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 24
    },
    "hot-100": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 34
    },
    "hot-rock-songs": {
@@ -923638,7 +923929,7 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-03-14",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 15
    },
    "adult-pop-songs": {
@@ -923716,7 +924007,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 26
    },
    "hot-rock-songs": {
@@ -925031,12 +925322,12 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 5
    },
    "rap-song": {
     "first": "2026-08-29",
-    "last": "2026-09-05",
+    "last": "2026-09-19",
     "peak": 14
    }
   },
@@ -931416,7 +931707,7 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 19
    }
   },
@@ -936471,7 +936762,7 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 23
    },
    "bubbling-under-hot-100-singles": {
@@ -936551,7 +936842,7 @@
   "charts": {
    "adult-contemporary": {
     "first": "2025-11-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 3
    },
    "adult-pop-songs": {
@@ -936561,7 +936852,7 @@
    },
    "hot-100": {
     "first": "2025-09-06",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    },
    "hot-dance-airplay": {
@@ -936603,17 +936894,17 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-02-14",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 3
    },
    "adult-pop-songs": {
     "first": "2025-12-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "hot-100": {
     "first": "2025-10-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 5
    },
    "hot-dance-airplay": {
@@ -937518,17 +937809,17 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-05-02",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 15
    },
    "adult-pop-songs": {
     "first": "2026-05-02",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 5
    },
    "hot-100": {
     "first": "2026-05-02",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "hot-dance-airplay": {
@@ -937560,7 +937851,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 20
    }
   },
@@ -937666,7 +937957,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 9
    }
   },
@@ -937710,7 +938001,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-06-27",
-    "last": "2026-08-08",
+    "last": "2026-09-19",
     "peak": 21
    }
   },
@@ -937743,7 +938034,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 12
    }
   },
@@ -937873,12 +938164,12 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
-    "peak": 29
+    "last": "2026-09-19",
+    "peak": 28
    },
    "hot-100": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 3
    },
    "pop-songs": {
@@ -937905,7 +938196,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-06-06",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 5
    }
   },
@@ -938011,7 +938302,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 17
    }
   },
@@ -938583,8 +938874,8 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-04-25",
-    "last": "2026-09-12",
-    "peak": 14
+    "last": "2026-09-19",
+    "peak": 4
    }
   },
   "title": "Koko"
@@ -940951,7 +941242,7 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-05-16",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 26
    },
    "adult-pop-songs": {
@@ -943298,7 +943589,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 25
    }
   },
@@ -950107,7 +950398,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 13
    }
   },
@@ -953388,12 +953679,12 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
-    "peak": 7
+    "last": "2026-09-19",
+    "peak": 6
    },
    "rock-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 26
    }
   },
@@ -954145,12 +954436,12 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 17
    },
    "rock-airplay": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 34
    }
   },
@@ -955037,7 +955328,7 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-04-04",
-    "last": "2026-04-11",
+    "last": "2026-09-19",
     "peak": 4
    },
    "country-songs": {
@@ -956462,7 +956753,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 36
    }
   },
@@ -964032,8 +964323,8 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
-    "peak": 16
+    "last": "2026-09-19",
+    "peak": 14
    }
   },
   "title": "Masquerade"
@@ -969928,7 +970219,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 10
    }
   },
@@ -980841,7 +981132,7 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 20
    },
    "bubbling-under-hot-100-singles": {
@@ -980861,12 +981152,12 @@
    },
    "rock-airplay": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
-    "peak": 14
+    "last": "2026-09-19",
+    "peak": 12
    },
    "triple-a": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -982853,7 +983144,7 @@
   "charts": {
    "hot-dance-pop-songs": {
     "first": "2026-03-07",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 9
    }
   },
@@ -982921,7 +983212,7 @@
    },
    "hot-dance-pop-songs": {
     "first": "2025-05-10",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "pop-songs": {
@@ -984671,8 +984962,8 @@
   "charts": {
    "rhythmic-40": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
-    "peak": 18
+    "last": "2026-09-19",
+    "peak": 16
    }
   },
   "title": "Satalanaaa"
@@ -1002071,7 +1002362,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -1004182,12 +1004473,12 @@
    },
    "hot-100": {
     "first": "2026-07-18",
-    "last": "2026-09-05",
+    "last": "2026-09-19",
     "peak": 50
    },
    "hot-dance-pop-songs": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 4
    }
   },
@@ -1021069,7 +1021360,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 5
    }
   },
@@ -1026228,7 +1026519,7 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 37
    }
   },
@@ -1036364,17 +1036655,17 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
-    "peak": 27
+    "last": "2026-09-19",
+    "peak": 25
    },
    "rock-airplay": {
     "first": "2026-05-16",
-    "last": "2026-09-12",
-    "peak": 17
+    "last": "2026-09-19",
+    "peak": 16
    },
    "triple-a": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -1039443,8 +1039734,8 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-04-18",
-    "last": "2026-09-12",
-    "peak": 3
+    "last": "2026-09-19",
+    "peak": 1
    }
   },
   "title": "Para Que Seas Feliz"
@@ -1042894,8 +1043185,8 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
-    "peak": 50
+    "last": "2026-09-19",
+    "peak": 46
    }
   },
   "title": "Living Large"
@@ -1049143,8 +1049434,8 @@
    },
    "hot-100": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
-    "peak": 69
+    "last": "2026-09-19",
+    "peak": 58
    }
   },
   "title": "Think As You Drunk"
@@ -1060382,13 +1060673,13 @@
   "charts": {
    "hot-100": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 70
    },
    "rap-song": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
-    "peak": 14
+    "last": "2026-09-19",
+    "peak": 10
    }
   },
   "title": "Dope Girl"
@@ -1060805,7 +1061096,7 @@
    },
    "rap-song": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 9
    }
   },
@@ -1061495,7 +1061786,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 40
    },
    "r-b-hip-hop-songs": {
@@ -1061505,7 +1061796,7 @@
    },
    "rap-song": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 6
    }
   },
@@ -1061877,7 +1062168,7 @@
    },
    "rap-song": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 10
    }
   },
@@ -1062162,7 +1062453,7 @@
    },
    "rap-song": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 11
    }
   },
@@ -1065052,12 +1065343,12 @@
    },
    "rock-airplay": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
-    "peak": 45
+    "last": "2026-09-19",
+    "peak": 35
    },
    "triple-a": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 11
    }
   },
@@ -1066674,7 +1066965,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-05-16",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -1066802,7 +1067093,7 @@
    },
    "latin-tropical-airplay": {
     "first": "2026-01-24",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -1074725,8 +1075016,8 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 36
+    "last": "2026-09-19",
+    "peak": 29
    }
   },
   "title": "Ten Over Ten"
@@ -1080807,7 +1081098,7 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-05-16",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 17
    }
   },
@@ -1082431,7 +1082722,7 @@
    },
    "hot-100": {
     "first": "2025-09-13",
-    "last": "2026-09-05",
+    "last": "2026-09-19",
     "peak": 27
    },
    "pop-songs": {
@@ -1084812,7 +1085103,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 21
    }
   },
@@ -1086335,7 +1086626,7 @@
    },
    "alternative-airplay": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 14
    },
    "bubbling-under-hot-100-singles": {
@@ -1086345,7 +1086636,7 @@
    },
    "hot-100": {
     "first": "2026-03-28",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 45
    },
    "hot-rock-songs": {
@@ -1086355,12 +1086646,12 @@
    },
    "rock-airplay": {
     "first": "2026-05-30",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 16
    },
    "triple-a": {
     "first": "2026-05-02",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    }
   },
@@ -1092297,8 +1092588,8 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
-    "peak": 40
+    "last": "2026-09-19",
+    "peak": 32
    }
   },
   "title": "Just A Kid"
@@ -1103834,7 +1104125,7 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 20
    }
   },
@@ -1106919,8 +1107210,8 @@
    },
    "hot-100": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
-    "peak": 43
+    "last": "2026-09-19",
+    "peak": 42
    }
   },
   "title": "Cowgirl"
@@ -1107025,6 +1107316,17 @@
    }
   },
   "title": "It's On You"
+ },
+ "shab|perfume": {
+  "artist": "Shab",
+  "charts": {
+   "hot-dance-airplay": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 32
+   }
+  },
+  "title": "Perfume"
  },
  "shab|skin and bones": {
   "artist": "Shab",
@@ -1108294,7 +1108596,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-03-21",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -1108442,12 +1108744,12 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 14
    },
    "adult-pop-songs": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 35
    },
    "bubbling-under-hot-100-singles": {
@@ -1108457,12 +1108759,12 @@
    },
    "hot-100": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 17
    },
    "latin-pop-airplay": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    },
    "pop-songs": {
@@ -1108472,7 +1108774,7 @@
    },
    "rhythmic-40": {
     "first": "2026-06-06",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -1117353,18 +1117655,18 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
-    "peak": 23
+    "last": "2026-09-19",
+    "peak": 22
    },
    "hot-mainstream-rock-tracks": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "rock-airplay": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
-    "peak": 5
+    "last": "2026-09-19",
+    "peak": 3
    }
   },
   "title": "Young Again"
@@ -1120446,8 +1120748,8 @@
   "charts": {
    "hot-100": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
-    "peak": 56
+    "last": "2026-09-19",
+    "peak": 52
    }
   },
   "title": "Great Expectation"
@@ -1120457,8 +1120759,8 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-05-23",
-    "last": "2026-09-12",
-    "peak": 3
+    "last": "2026-09-19",
+    "peak": 2
    }
   },
   "title": "Material Lover"
@@ -1120468,7 +1120770,7 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 8
    }
   },
@@ -1121553,7 +1121855,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 35
    }
   },
@@ -1126891,20 +1127193,25 @@
  "skilla baby|face card": {
   "artist": "Skilla Baby Featuring Chris Brown & Bryson Tiller",
   "charts": {
+   "bubbling-under-hot-100-singles": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 18
+   },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 11
    },
    "rap-song": {
     "first": "2026-09-05",
-    "last": "2026-09-05",
+    "last": "2026-09-19",
     "peak": 24
    },
    "rhythmic-40": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
-    "peak": 22
+    "last": "2026-09-19",
+    "peak": 21
    }
   },
   "title": "Face Card"
@@ -1127184,8 +1127491,8 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 31
+    "last": "2026-09-19",
+    "peak": 30
    }
   },
   "title": "Scream"
@@ -1129393,7 +1129700,7 @@
    },
    "hot-dance-pop-songs": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 5
    }
   },
@@ -1129420,7 +1129727,7 @@
    },
    "hot-dance-pop-songs": {
     "first": "2026-01-31",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 7
    }
   },
@@ -1129618,8 +1129925,8 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
-    "peak": 31
+    "last": "2026-09-19",
+    "peak": 30
    },
    "alternative-airplay": {
     "first": "2026-03-28",
@@ -1130343,12 +1130650,12 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 24
    },
    "rock-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 35
    }
   },
@@ -1131205,7 +1131512,7 @@
   "charts": {
    "triple-a": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 23
    }
   },
@@ -1135553,7 +1135860,7 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 25
    }
   },
@@ -1136566,18 +1136873,23 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 32
    },
    "hot-mainstream-rock-tracks": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 32
    },
    "rock-airplay": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 42
+   },
+   "triple-a": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 39
    }
   },
   "title": "Tonight"
@@ -1138346,7 +1138658,7 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-05-23",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 17
    },
    "adult-pop-songs": {
@@ -1138403,17 +1138715,17 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
-    "peak": 18
+    "last": "2026-09-19",
+    "peak": 17
    },
    "alternative-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 33
    },
    "hot-100": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 30
    },
    "pop-songs": {
@@ -1139368,7 +1139680,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 26
    }
   },
@@ -1139379,8 +1139691,8 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
-    "peak": 23
+    "last": "2026-09-19",
+    "peak": 18
    }
   },
   "title": "Say Something"
@@ -1152942,12 +1153254,12 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 25
+    "last": "2026-09-19",
+    "peak": 22
    },
    "adult-pop-songs": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 11
    },
    "country-songs": {
@@ -1152957,7 +1153269,7 @@
    },
    "hot-100": {
     "first": "2026-04-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    },
    "pop-songs": {
@@ -1153010,7 +1153322,7 @@
    },
    "hot-100": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 40
    }
   },
@@ -1154283,8 +1154595,8 @@
   "charts": {
    "triple-a": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 21
+    "last": "2026-09-19",
+    "peak": 20
    }
   },
   "title": "Hardwired"
@@ -1155126,7 +1155438,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 20
    }
   },
@@ -1156293,8 +1156605,8 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 15
+    "last": "2026-09-19",
+    "peak": 5
    }
   },
   "title": "Nothing"
@@ -1156304,23 +1156616,23 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
-    "peak": 38
+    "last": "2026-09-19",
+    "peak": 30
    },
    "hot-100": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 19
    },
    "rock-airplay": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 37
    },
    "triple-a": {
     "first": "2026-09-12",
-    "last": "2026-09-12",
-    "peak": 37
+    "last": "2026-09-19",
+    "peak": 32
    }
   },
   "title": "Oh Yeah?"
@@ -1156377,7 +1156689,7 @@
   "charts": {
    "hot-100": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 67
    },
    "r-b-hip-hop-songs": {
@@ -1161439,7 +1161751,7 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 23
    }
   },
@@ -1166265,7 +1166577,7 @@
    },
    "rock-airplay": {
     "first": "2025-07-26",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -1168207,6 +1168519,17 @@
    }
   },
   "title": "Escape From Babylon"
+ },
+ "suicideboys|frenzy": {
+  "artist": "$uicideboy$",
+  "charts": {
+   "rhythmic-40": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 35
+   }
+  },
+  "title": "Frenzy"
  },
  "suicideboys|fuck ups": {
   "artist": "$uicideboy$",
@@ -1174359,7 +1174682,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 12
    }
   },
@@ -1175615,7 +1175938,7 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 26
    }
   },
@@ -1177165,7 +1177488,7 @@
   "charts": {
    "triple-a": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 26
    }
   },
@@ -1180807,8 +1181130,8 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
-    "peak": 24
+    "last": "2026-09-19",
+    "peak": 21
    },
    "rhythmic-40": {
     "first": "2026-09-12",
@@ -1184787,12 +1185110,12 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 13
    },
    "adult-pop-songs": {
     "first": "2025-11-22",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "alternative-airplay": {
@@ -1184802,7 +1185125,7 @@
    },
    "hot-100": {
     "first": "2025-10-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 5
    },
    "hot-dance-airplay": {
@@ -1184988,13 +1185311,13 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
-    "peak": 26
+    "last": "2026-09-19",
+    "peak": 25
    },
    "alternative-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 10
+    "last": "2026-09-19",
+    "peak": 9
    },
    "bubbling-under-hot-100-singles": {
     "first": "2025-09-20",
@@ -1185003,7 +1185326,7 @@
    },
    "hot-100": {
     "first": "2025-11-01",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 18
    },
    "hot-rock-songs": {
@@ -1185013,13 +1185336,13 @@
    },
    "rock-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 8
    },
    "triple-a": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
-    "peak": 20
+    "last": "2026-09-19",
+    "peak": 16
    }
   },
   "title": "Loser"
@@ -1186922,7 +1187245,7 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-08-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 23
    }
   },
@@ -1191150,7 +1191473,7 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-03-21",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 9
    },
    "adult-pop-songs": {
@@ -1191837,12 +1192160,12 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 8
    },
    "adult-pop-songs": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "country-songs": {
@@ -1191852,7 +1192175,7 @@
    },
    "hot-100": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "pop-songs": {
@@ -1192714,7 +1193037,7 @@
   "charts": {
    "adult-contemporary": {
     "first": "2025-11-15",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 4
    },
    "adult-pop-songs": {
@@ -1193546,7 +1193869,7 @@
   "charts": {
    "adult-contemporary": {
     "first": "2025-10-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    },
    "adult-pop-songs": {
@@ -1194410,7 +1194733,7 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-08-08",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 28
    }
   },
@@ -1195975,18 +1196298,18 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 11
    },
    "adult-pop-songs": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 10
    },
    "hot-100": {
     "first": "2026-04-25",
-    "last": "2026-09-12",
-    "peak": 39
+    "last": "2026-09-19",
+    "peak": 38
    },
    "pop-songs": {
     "first": "2026-05-16",
@@ -1197286,7 +1197609,7 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-04-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "bubbling-under-hot-100-singles": {
@@ -1197296,7 +1197619,7 @@
    },
    "hot-100": {
     "first": "2026-04-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 35
    },
    "hot-rock-songs": {
@@ -1197306,7 +1197629,7 @@
    },
    "rock-airplay": {
     "first": "2026-04-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    }
   },
@@ -1198736,12 +1199059,12 @@
   "charts": {
    "hot-100": {
     "first": "2026-02-14",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 29
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-03-28",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "r-b-hip-hop-songs": {
@@ -1198751,8 +1199074,8 @@
    },
    "rhythmic-40": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
-    "peak": 15
+    "last": "2026-09-19",
+    "peak": 12
    }
   },
   "title": "What You Need"
@@ -1243368,13 +1243691,13 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-06-27",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 23
    },
    "rock-airplay": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
-    "peak": 49
+    "last": "2026-09-19",
+    "peak": 39
    }
   },
   "title": "Winnebago"
@@ -1246465,17 +1246788,17 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 22
+    "last": "2026-09-19",
+    "peak": 21
    },
    "hot-mainstream-rock-tracks": {
     "first": "2026-05-09",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "rock-airplay": {
     "first": "2026-05-23",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 5
    }
   },
@@ -1248561,8 +1248884,8 @@
   "charts": {
    "hot-dance-airplay": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
-    "peak": 27
+    "last": "2026-09-19",
+    "peak": 22
    }
   },
   "title": "Don't Lose Your Head"
@@ -1266518,7 +1266841,7 @@
   "charts": {
    "latin-tropical-airplay": {
     "first": "2026-05-16",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 17
    }
   },
@@ -1267625,7 +1267948,7 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 31
    }
   },
@@ -1279336,7 +1279659,7 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2025-03-01",
-    "last": "2026-07-04",
+    "last": "2026-09-19",
     "peak": 1
    },
    "country-songs": {
@@ -1281779,7 +1282102,7 @@
    },
    "rhythmic-40": {
     "first": "2026-06-20",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 11
    }
   },
@@ -1285538,7 +1285861,7 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-07-25",
-    "last": "2026-08-15",
+    "last": "2026-09-19",
     "peak": 2
    },
    "country-songs": {
@@ -1290339,6 +1290662,11 @@
  "tyla|chanel": {
   "artist": "Tyla",
   "charts": {
+   "adult-contemporary": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 17
+   },
    "bubbling-under-hot-100-singles": {
     "first": "2025-12-06",
     "last": "2025-12-20",
@@ -1290388,13 +1290716,13 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 21
    },
    "rhythmic-40": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
-    "peak": 7
+    "last": "2026-09-19",
+    "peak": 5
    }
   },
   "title": "Is It Love"
@@ -1294743,12 +1295071,12 @@
   "charts": {
    "rock-airplay": {
     "first": "2026-08-01",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 32
    },
    "triple-a": {
     "first": "2026-07-25",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 7
    }
   },
@@ -1309996,7 +1310324,7 @@
   "charts": {
    "rhythmic-40": {
     "first": "2026-08-22",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 27
    }
   },
@@ -1311846,8 +1312174,8 @@
   "charts": {
    "bubbling-under-hot-100-singles": {
     "first": "2026-09-05",
-    "last": "2026-09-05",
-    "peak": 20
+    "last": "2026-09-19",
+    "peak": 14
    },
    "country-songs": {
     "first": "2026-07-25",
@@ -1312204,7 +1312532,7 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 25
    }
   },
@@ -1314820,8 +1315148,13 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 18
+   },
+   "rock-airplay": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 48
    }
   },
   "title": "Blindfold"
@@ -1318338,12 +1318671,12 @@
   "charts": {
    "hot-mainstream-rock-tracks": {
     "first": "2026-03-21",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "rock-airplay": {
     "first": "2026-04-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 6
    }
   },
@@ -1325814,17 +1326147,17 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
-    "peak": 9
+    "last": "2026-09-19",
+    "peak": 6
    },
    "rock-airplay": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 17
    },
    "triple-a": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 14
    }
   },
@@ -1339839,7 +1340172,7 @@
   "charts": {
    "triple-a": {
     "first": "2026-09-05",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 23
    }
   },
@@ -1342405,7 +1342738,7 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -1346556,8 +1346889,8 @@
   "charts": {
    "latin-pop-airplay": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
-    "peak": 19
+    "last": "2026-09-19",
+    "peak": 18
    }
   },
   "title": "Voy Con Jesus"
@@ -1347656,7 +1347989,7 @@
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-07-18",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 8
    },
    "r-b-hip-hop-songs": {
@@ -1347671,8 +1348004,8 @@
    },
    "rhythmic-40": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
-    "peak": 17
+    "last": "2026-09-19",
+    "peak": 15
    }
   },
   "title": "I Can't Wait"
@@ -1352930,8 +1353263,8 @@
   "charts": {
    "alternative-airplay": {
     "first": "2026-07-11",
-    "last": "2026-09-12",
-    "peak": 19
+    "last": "2026-09-19",
+    "peak": 16
    }
   },
   "title": "Evergreen"
@@ -1358417,12 +1358750,12 @@
    },
    "hot-100": {
     "first": "2026-06-06",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 17
    },
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-06-06",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 4
    },
    "r-b-hip-hop-songs": {
@@ -1358432,12 +1358765,12 @@
    },
    "rap-song": {
     "first": "2026-06-06",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    },
    "rhythmic-40": {
     "first": "2026-06-13",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    }
   },
@@ -1362405,6 +1362738,11 @@
     "first": "2026-04-18",
     "last": "2026-07-25",
     "peak": 31
+   },
+   "hot-100": {
+    "first": "2026-09-19",
+    "last": "2026-09-19",
+    "peak": 87
    }
   },
   "title": "Get To Drinkin'"
@@ -1362564,8 +1362902,8 @@
    },
    "hot-100": {
     "first": "2025-09-13",
-    "last": "2026-09-12",
-    "peak": 79
+    "last": "2026-09-19",
+    "peak": 77
    }
   },
   "title": "South Of Sanity"
@@ -1363159,7 +1363497,7 @@
   "charts": {
    "adult-pop-songs": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 38
    },
    "bubbling-under-hot-100-singles": {
@@ -1363174,7 +1363512,7 @@
    },
    "hot-dance-pop-songs": {
     "first": "2026-03-07",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 2
    },
    "pop-songs": {
@@ -1363190,13 +1363528,13 @@
   "charts": {
    "adult-contemporary": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
-    "peak": 27
+    "last": "2026-09-19",
+    "peak": 24
    },
    "adult-pop-songs": {
     "first": "2026-03-21",
-    "last": "2026-09-12",
-    "peak": 8
+    "last": "2026-09-19",
+    "peak": 7
    },
    "bubbling-under-hot-100-singles": {
     "first": "2026-01-24",
@@ -1363205,8 +1363543,8 @@
    },
    "hot-100": {
     "first": "2026-01-31",
-    "last": "2026-09-12",
-    "peak": 14
+    "last": "2026-09-19",
+    "peak": 13
    },
    "hot-dance-airplay": {
     "first": "2026-02-07",
@@ -1363215,7 +1363553,7 @@
    },
    "hot-dance-pop-songs": {
     "first": "2025-10-11",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 1
    },
    "pop-songs": {
@@ -1363225,7 +1363563,7 @@
    },
    "rhythmic-40": {
     "first": "2026-08-29",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 33
    }
   },
@@ -1363815,7 +1364153,7 @@
   "charts": {
    "hot-r-and-b-hip-hop-airplay": {
     "first": "2026-07-04",
-    "last": "2026-09-12",
+    "last": "2026-09-19",
     "peak": 22
    }
   },
